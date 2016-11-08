@@ -1,0 +1,27 @@
+{
+  "name": "leetsai.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leetsai/leetsai.github.io.git"
+  },
+  "author": "Lee Tsai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leetsai/leetsai.github.io/issues"
+  },
+  "homepage": "https://github.com/leetsai/leetsai.github.io#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.7",
+    "react": "^15.3.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-router": "^3.0.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
