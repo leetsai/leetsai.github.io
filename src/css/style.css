@@ -10,7 +10,7 @@ html {
 }
 
 .navigation {
-  color: #fff;
+  color: #FFF;
   font-family: 'Open Sans', sans-serif;
   margin-right: 0.75%;
 }
@@ -24,4 +24,20 @@ li {
 
 #copyright {
   color: #fff;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 0.75em;
+  margin-left: 0.5%;
+  position: fixed;
+  bottom: 0.75%;
+}
+
+/* unvisited link */
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #22313F;
 }
