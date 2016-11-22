@@ -9,26 +9,72 @@ html {
   -webkit-background-size: cover;
 }
 
-.navigation {
+ul.navigation {
   color: #FFF;
-  font-family: 'Open Sans', sans-serif;
-  margin-right: 0.75%;
+  font-family: "Open Sans", "Roboto", "Lato", sans-serif;
+  margin-top: 2%;
 }
 
-li {
+li.pages {
   display: inline;
   float: right;
-  font-size: 1.1em;
-  margin: 1.6%;
+  font-size: 1em;
+  margin-right: 3%;
+}
+
+div.container {
+  position: absolute;
+  min-height: 100%;
+  min-width: 30%;
+  background-color: rgba(34, 49, 63, 0.75);
+}
+
+body {
+  font-family: "Open Sans", "Roboto", "Lato", sans-serif;
+}
+
+div.biography p {
+  color: #E4F1FE;
+  text-align: center;
+  margin: 0 12px;
+}
+
+p#first_line {
+  font-size: 24px;
+  padding-bottom: 16px;
+}
+
+p#second_line, p#third_line {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.social_media {
+  display: block;
+  margin: 36px auto;
+}
+
+i.fa {
+  color: #E4F1FE;
+  padding: 6px;
+}
+
+#profile_picture {
+  border: 2px solid #E4F1FE;
+  border-radius: 100%;
+  display: block;
+  height: 200px;
+  margin: 2.5em auto;
+  width: 200px;
 }
 
 #copyright {
+  bottom: 0.75%;
   color: #fff;
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 0.75em;
   margin-left: 0.5%;
   position: fixed;
-  bottom: 0.75%;
 }
 
 /* unvisited link */

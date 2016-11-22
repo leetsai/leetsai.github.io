@@ -5,12 +5,12 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="navigation">
-          <ul>
-            <li className="pages"><Link to="/">Home</Link></li>
-            <li className="pages"><Link to="/resume">Resume</Link></li>
+        <div>
+          <ul className="navigation">
+            <li className="pages"><Link to="/blog">Blog</Link></li>
             <li className="pages"><Link to="/portfolio">Portfolio</Link></li>
             <li className="pages"><Link to="/about">About</Link></li>
+            <li className="pages"><Link to="/">Home</Link></li>
           </ul>
         </div>
 
