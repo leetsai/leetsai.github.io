@@ -20,7 +20,7 @@ class Home extends Component {
 
         <footer>
           <div id="copyright">
-            @ 2016
+            © COPYRIGHT 2016-17
           </div>
         </footer>
       </div>
