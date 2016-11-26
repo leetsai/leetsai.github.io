@@ -13,7 +13,7 @@ class Home extends Component {
             <p id="third_line">in San Francisco</p>
 
             <div className="social_media">
-              <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+              <a href="https://linkedin.com/in/leetsai"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
               <i className="fa fa-github fa-2x" aria-hidden="true"></i>
               <i className="fa fa-angellist fa-2x" aria-hidden="true"></i>
             </div>
