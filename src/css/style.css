@@ -1,6 +1,6 @@
 html {
   background-attachment: fixed;
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-26.jpg);
+  background-image: url(https://latimesherocomplex.files.wordpress.com/2014/10/la_ca_1021_big_hero_6_141.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,54 +9,103 @@ html {
   -webkit-background-size: cover;
 }
 
-ul.navigation {
-  color: #FFF;
+/*ul.navigation {
+  color: black;
   font-family: "Open Sans", "Roboto", "Lato", sans-serif;
   margin-top: 2%;
-}
+}*/
 
-li.pages {
+/*div.navbar {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}*/
+
+/*li.pages {
   display: inline;
   float: right;
   font-size: 1em;
   margin-right: 3%;
+}*/
+
+.container {
+  align-items: center;
+  background-color: rgba(0, 0, 20, 0.65);
+  display: flex;
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
 
-div.container {
+.col {
+  width: 50%;
+}
+
+.tile {
+  position: relative;
+  width: 200px;
+  padding-bottom: 200px;
+  display: inline-block;
+}
+
+.tile_content {
+  color: white;
+  font-size: 25px;
   position: absolute;
-  min-height: 100%;
-  min-width: 30%;
-  background-color: rgba(34, 49, 63, 0.75);
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  background-color: rgba(238, 238, 238, .33);
+  padding: 20px;
+}
+
+.tile_content:hover {
+  background-color: rgba(238, 238, 238, .50);
 }
 
 body {
   font-family: "Open Sans", "Roboto", "Lato", sans-serif;
 }
 
-div.biography p {
+.biography {
   color: #E4F1FE;
   text-align: center;
-  margin: 0 12px;
 }
 
-p#first_line {
+#first_line {
   font-size: 24px;
   padding-bottom: 16px;
 }
 
-p#second_line, p#third_line {
-  padding-bottom: 10px;
+#second_line, #third_line {
   font-size: 18px;
+  padding-bottom: 10px;
 }
 
 .social_media {
-  display: block;
-  margin: 36px auto;
+  margin: 50px auto;
+  width: 150px;
 }
 
 i.fa {
-  color: #E4F1FE;
-  padding: 10px;
+  margin: 0 10px;
+}
+
+i.fa:hover {
+  transition-duration: 0.3s;
+}
+
+#linkedin:hover {
+  color: rgb(30, 135, 189);
+}
+
+#github:hover {
+  color: rgb(51, 51, 51);
+}
+
+#angellist:hover {
+  color: rgb(152, 152, 152);
 }
 
 #profile_picture {
@@ -64,7 +113,7 @@ i.fa {
   border-radius: 100%;
   display: block;
   height: 200px;
-  margin: 2.5em auto;
+  margin: 6% auto 10%;
   width: 200px;
 }
 
@@ -86,4 +135,52 @@ a, a:visited, a:hover, a:active {
 /* mouse over link */
 a:hover {
   color: #22313F;
+  transition-duration: 0.2s;
+}
+
+@media only screen and (max-width : 480px) {
+  /* Smartphone view: 1 tile */
+  .tiles {
+    /*align-items: center;
+    justify-content: center;*/
+    position: flex;
+    /*align-items: center;*/
+  }
+
+  .tile {
+    width: 65%;
+    padding-bottom: 65%;
+    margin: 0 auto;
+    /*float: right;*/
+    align-items: center;
+  }
+
+  .tile_content {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+  /* Tablet view: 2 tiles */
+  .tile {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+}
+
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+  /* Small desktop / iPad view: 3 tiles */
+  .tile {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+}
+
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+  /* Medium desktop: 4 tiles */
+  .tile {
+    width: 25%;
+    padding-bottom: 25%;
+  }
 }
