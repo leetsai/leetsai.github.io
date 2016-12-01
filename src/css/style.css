@@ -31,8 +31,8 @@ html {
 
 .tile {
   position: relative;
-  width: 200px;
-  padding-bottom: 200px;
+  width: 49%;
+  padding-bottom: 49%;
   display: inline-block;
 }
 
@@ -58,25 +58,29 @@ body {
 
 .biography {
   color: #E4F1FE;
-  text-align: center;
   position: relative;
+  text-align: center;
   top: 50%;
   transform: translateY(-50%);
+  /*height: 65%;*/
+}
+
+.intro {
+  margin: 8% 4% 6%;
 }
 
 #first_line {
-  font-size: 24px;
+  font-size: 32px;
   padding-bottom: 16px;
 }
 
 #second_line, #third_line {
-  font-size: 18px;
+  font-size: 22px;
   padding-bottom: 10px;
 }
 
 .social_media {
-  margin: 5% auto;
-  width: 150px;
+  margin: 0 auto;
 }
 
 i.fa {
@@ -104,12 +108,12 @@ i.fa:hover {
   border-radius: 100%;
   display: block;
   height: 200px;
-  margin: 0 auto 8%;
+  margin: 0 auto;
   width: 200px;
 }
 
 #copyright {
-  bottom: 0.75%;
+  bottom: 0.5%;
   color: #fff;
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 0.5em;
@@ -129,21 +133,32 @@ a:hover {
   transition-duration: 0.2s;
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 400px) {
   /* Smartphone view: 1 tile */
-  .tiles {
-    /*align-items: center;
-    justify-content: center;*/
-    position: flex;
-    /*align-items: center;*/
+  #profile_picture {
+    border-width: 2px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .intro {
+    margin-top: 30%;
+    margin-bottom: 25%;
+  }
+
+  #first_line {
+    font-size: 26px;
+  }
+
+  #second_line, #third_line {
+    font-size: 16px;
   }
 
   .tile {
-    width: 65%;
-    padding-bottom: 65%;
+    display: block;
+    width: 80%;
+    padding-bottom: 80%;
     margin: 0 auto;
-    /*float: right;*/
-    align-items: center;
   }
 
   .tile_content {
@@ -152,26 +167,54 @@ a:hover {
   }
 }
 
+@media only screen and (max-width : 480px) and (min-width : 401px) {
+  /* Smartphone view: 1 tile */
+  .intro {
+    margin-top: 30%;
+    margin-bottom: 25%;
+  }
+
+  #first_line {
+    font-size: 32px;
+  }
+
+  #second_line, #third_line {
+    font-size: 20px;
+  }
+
+  .tile {
+    display: block;
+    width: 80%;
+    padding-bottom: 80%;
+    margin: 0 auto;
+  }
+
+  .tile_content {
+    font-size: 22px;
+    padding: 10px;
+  }
+}
+
 @media only screen and (max-width : 650px) and (min-width : 481px) {
   /* Tablet view: 2 tiles */
   .tile {
-    width: 50%;
-    padding-bottom: 50%;
+    width: 49%;
+    padding-bottom: 49%;
   }
 }
 
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
-  /* Small desktop / iPad view: 3 tiles */
+  /* Small desktop / iPad view: 2 tiles */
   .tile {
-    width: 50%;
-    padding-bottom: 50%;
+    width: 49%;
+    padding-bottom: 49%;
   }
 }
 
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
   /* Medium desktop: 4 tiles */
   .tile {
-    width: 25%;
-    padding-bottom: 25%;
+    width: 49%;
+    padding-bottom: 49%;
   }
 }
