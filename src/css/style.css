@@ -9,8 +9,11 @@ html {
   -webkit-background-size: cover;
 }
 
+body {
+  font-family: "Open Sans", "Roboto", "Lato", sans-serif;
+}
+
 .container {
-  align-items: center;
   background-color: rgba(0, 0, 20, 0.65);
   display: flex;
   height: 100%;
@@ -30,6 +33,85 @@ html {
   width: 40%;
 }
 
+/* This is the container for Lee's biography */
+.biography {
+  color: #E4F1FE;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#profile_picture {
+  border: 2px solid #E4F1FE;
+  border-radius: 7.5%;
+  height: auto;
+  max-width: 180px;
+  width: 65%;
+}
+
+/* Blurb about what I do (on the home page) */
+.intro {
+  margin: 8% 4% 6%;
+}
+
+#first_line {
+  font-size: 32px;
+  padding-bottom: 16px;
+}
+
+#second_line, #third_line {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+/* Container for social media icons and links */
+.social_media {
+  margin: 0 auto;
+}
+
+i.fa {
+  margin: 0 10px;
+}
+
+i.fa:hover {
+  transition-duration: 0.3s;
+}
+
+#linkedin:hover {
+  color: rgb(30, 135, 189);
+}
+
+#github:hover {
+  color: rgb(51, 51, 51);
+}
+
+#angellist:hover {
+  color: rgb(152, 152, 152);
+}
+
+#copyright {
+  bottom: 0.5%;
+  color: #fff;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 0.5em;
+  margin-left: 0.5%;
+  position: fixed;
+}
+
+/* unvisited link */
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #22313F;
+  transition-duration: 0.2s;
+}
+
+/* Container for the right side of the page */
 .tiles {
   position: relative;
   top: 50%;
@@ -58,85 +140,6 @@ html {
 
 .tile_content:hover {
   background-color: rgba(238, 238, 238, .50);
-}
-
-body {
-  font-family: "Open Sans", "Roboto", "Lato", sans-serif;
-}
-
-.biography {
-  color: #E4F1FE;
-  position: relative;
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.intro {
-  margin: 8% 4% 6%;
-}
-
-#first_line {
-  font-size: 32px;
-  padding-bottom: 16px;
-}
-
-#second_line, #third_line {
-  font-size: 22px;
-  padding-bottom: 10px;
-}
-
-.social_media {
-  margin: 0 auto;
-}
-
-i.fa {
-  margin: 0 10px;
-}
-
-i.fa:hover {
-  transition-duration: 0.3s;
-}
-
-#linkedin:hover {
-  color: rgb(30, 135, 189);
-}
-
-#github:hover {
-  color: rgb(51, 51, 51);
-}
-
-#angellist:hover {
-  color: rgb(152, 152, 152);
-}
-
-#profile_picture {
-  border: 2px solid #E4F1FE;
-  border-radius: 7.5%;
-  height: auto;
-  max-width: 180px;
-  width: 65%;
-}
-
-#copyright {
-  bottom: 0.5%;
-  color: #fff;
-  font-family: 'Roboto', Arial, sans-serif;
-  font-size: 0.5em;
-  margin-left: 0.5%;
-  position: fixed;
-}
-
-/* unvisited link */
-a, a:visited, a:hover, a:active {
-  color: inherit;
-  text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-  color: #22313F;
-  transition-duration: 0.2s;
 }
 
 @media only screen and (max-width : 400px) {
