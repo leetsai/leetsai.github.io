@@ -19,8 +19,15 @@ html {
 }
 
 .col {
-  width: 50%;
   height: 100%;
+}
+
+.col#left {
+  width: 60%;
+}
+
+.col#right {
+  width: 40%;
 }
 
 .tiles {
@@ -30,22 +37,23 @@ html {
 }
 
 .tile {
+  display: inline-block;
+  margin: 0 auto;
+  padding-bottom: 49%;
   position: relative;
   width: 49%;
-  padding-bottom: 49%;
-  display: inline-block;
 }
 
 .tile_content {
+  background-color: rgba(238, 238, 238, .33);
+  bottom: 5px;
   color: white;
   font-size: 25px;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
   left: 5px;
-  background-color: rgba(238, 238, 238, .33);
   padding: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
 }
 
 .tile_content:hover {
@@ -62,7 +70,6 @@ body {
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
-  /*height: 65%;*/
 }
 
 .intro {
@@ -105,11 +112,10 @@ i.fa:hover {
 
 #profile_picture {
   border: 2px solid #E4F1FE;
-  border-radius: 100%;
-  display: block;
-  height: 200px;
-  margin: 0 auto;
-  width: 200px;
+  border-radius: 7.5%;
+  height: auto;
+  max-width: 180px;
+  width: 65%;
 }
 
 #copyright {
@@ -135,17 +141,6 @@ a:hover {
 
 @media only screen and (max-width : 400px) {
   /* Smartphone view: 1 tile */
-  #profile_picture {
-    border-width: 2px;
-    height: 150px;
-    width: 150px;
-  }
-
-  .intro {
-    margin-top: 30%;
-    margin-bottom: 25%;
-  }
-
   #first_line {
     font-size: 26px;
   }
@@ -156,9 +151,8 @@ a:hover {
 
   .tile {
     display: block;
-    width: 80%;
-    padding-bottom: 80%;
-    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 70%;
   }
 
   .tile_content {
@@ -167,13 +161,8 @@ a:hover {
   }
 }
 
-@media only screen and (max-width : 480px) and (min-width : 401px) {
+@media only screen and (max-width : 500px) and (min-width : 401px) {
   /* Smartphone view: 1 tile */
-  .intro {
-    margin-top: 30%;
-    margin-bottom: 25%;
-  }
-
   #first_line {
     font-size: 32px;
   }
@@ -184,9 +173,9 @@ a:hover {
 
   .tile {
     display: block;
-    width: 80%;
-    padding-bottom: 80%;
     margin: 0 auto;
+    padding-bottom: 70%;
+    width: 70%;
   }
 
   .tile_content {
@@ -195,19 +184,24 @@ a:hover {
   }
 }
 
-@media only screen and (max-width : 650px) and (min-width : 481px) {
-  /* Tablet view: 2 tiles */
+@media only screen and (max-width : 625px) and (min-width : 501px) {
   .tile {
-    width: 49%;
-    padding-bottom: 49%;
+    display: block;
+    padding-bottom: 55%;
+    width: 55%;
+  }
+
+  .tile_content {
+    font-size: 18px;
+    padding: 8px;
   }
 }
 
-@media only screen and (max-width : 1050px) and (min-width : 651px) {
+@media only screen and (max-width : 1050px) and (min-width : 626px) {
   /* Small desktop / iPad view: 2 tiles */
   .tile {
-    width: 49%;
     padding-bottom: 49%;
+    width: 49%;
   }
 }
 
