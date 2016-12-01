@@ -7,11 +7,13 @@ class Home extends Component {
       <div className="biography">
         <img id="profile_picture" src="src/css/leetsai.png" alt="profile_picture" />
 
-        <div className="intro">
-          <p id="first_line">Hi, I'm Lee!</p>
-          <p id="second_line">a full-stack developer working</p>
-          <p id="third_line">in San Francisco</p>
-        </div>
+        <p className="intro">
+          <div id="first_line">Hi, I'm Lee!</div>
+          <div id="the_rest">
+            a full-stack web developer <br></br>
+            working in San Francisco
+          </div>
+        </p>
 
         <div className="social_media">
           <a href="https://linkedin.com/in/leetsai" target="_blank"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true" id="linkedin"></i></a>
