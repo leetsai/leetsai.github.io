@@ -21858,7 +21858,7 @@
 
 
 	// module
-	exports.push([module.id, "html {\n  background-attachment: fixed;\n  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-26.jpg);\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: cover;\n  -o-background-size: cover;\n  -moz-background-size: cover;\n  -webkit-background-size: cover;\n}\n\nul.navigation {\n  color: #FFF;\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n  margin-top: 2%;\n}\n\nli.pages {\n  display: inline;\n  float: right;\n  font-size: 1em;\n  margin-right: 3%;\n}\n\ndiv.container {\n  position: absolute;\n  min-height: 100%;\n  min-width: 30%;\n  background-color: rgba(34, 49, 63, 0.75);\n}\n\nbody {\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n}\n\ndiv.biography p {\n  color: #E4F1FE;\n  text-align: center;\n  margin: 0 12px;\n}\n\np#first_line {\n  font-size: 24px;\n  padding-bottom: 16px;\n}\n\np#second_line, p#third_line {\n  padding-bottom: 10px;\n  font-size: 18px;\n}\n\n.social_media {\n  display: block;\n  margin: 36px auto;\n}\n\ni.fa {\n  color: #E4F1FE;\n  padding: 10px;\n}\n\n#profile_picture {\n  border: 2px solid #E4F1FE;\n  border-radius: 100%;\n  display: block;\n  height: 200px;\n  margin: 2.5em auto;\n  width: 200px;\n}\n\n#copyright {\n  bottom: 0.75%;\n  color: #fff;\n  font-family: 'Roboto', Arial, sans-serif;\n  font-size: 0.75em;\n  margin-left: 0.5%;\n  position: fixed;\n}\n\n/* unvisited link */\na, a:visited, a:hover, a:active {\n  color: inherit;\n  text-decoration: none;\n}\n\n/* mouse over link */\na:hover {\n  color: #22313F;\n}\n", ""]);
+	exports.push([module.id, "html {\n  background-attachment: fixed;\n  background-image: url(https://latimesherocomplex.files.wordpress.com/2014/10/la_ca_1021_big_hero_6_141.jpg);\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: cover;\n  -o-background-size: cover;\n  -moz-background-size: cover;\n  -webkit-background-size: cover;\n}\n\n.container {\n  align-items: center;\n  background-color: rgba(0, 0, 20, 0.65);\n  display: flex;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n}\n\n.col {\n  width: 50%;\n  height: 100%;\n}\n\n.tiles {\n  position: relative;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.tile {\n  position: relative;\n  width: 49%;\n  padding-bottom: 49%;\n  display: inline-block;\n}\n\n.tile_content {\n  color: white;\n  font-size: 25px;\n  position: absolute;\n  top: 5px;\n  right: 5px;\n  bottom: 5px;\n  left: 5px;\n  background-color: rgba(238, 238, 238, .33);\n  padding: 20px;\n}\n\n.tile_content:hover {\n  background-color: rgba(238, 238, 238, .50);\n}\n\nbody {\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n}\n\n.biography {\n  color: #E4F1FE;\n  position: relative;\n  text-align: center;\n  top: 50%;\n  transform: translateY(-50%);\n  /*height: 65%;*/\n}\n\n.intro {\n  margin: 8% 4% 6%;\n}\n\n#first_line {\n  font-size: 32px;\n  padding-bottom: 16px;\n}\n\n#second_line, #third_line {\n  font-size: 22px;\n  padding-bottom: 10px;\n}\n\n.social_media {\n  margin: 0 auto;\n}\n\ni.fa {\n  margin: 0 10px;\n}\n\ni.fa:hover {\n  transition-duration: 0.3s;\n}\n\n#linkedin:hover {\n  color: rgb(30, 135, 189);\n}\n\n#github:hover {\n  color: rgb(51, 51, 51);\n}\n\n#angellist:hover {\n  color: rgb(152, 152, 152);\n}\n\n#profile_picture {\n  border: 2px solid #E4F1FE;\n  border-radius: 100%;\n  display: block;\n  height: 200px;\n  margin: 0 auto;\n  width: 200px;\n}\n\n#copyright {\n  bottom: 0.5%;\n  color: #fff;\n  font-family: 'Roboto', Arial, sans-serif;\n  font-size: 0.5em;\n  margin-left: 0.5%;\n  position: fixed;\n}\n\n/* unvisited link */\na, a:visited, a:hover, a:active {\n  color: inherit;\n  text-decoration: none;\n}\n\n/* mouse over link */\na:hover {\n  color: #22313F;\n  transition-duration: 0.2s;\n}\n\n@media only screen and (max-width : 400px) {\n  /* Smartphone view: 1 tile */\n  #profile_picture {\n    border-width: 2px;\n    height: 150px;\n    width: 150px;\n  }\n\n  .intro {\n    margin-top: 30%;\n    margin-bottom: 25%;\n  }\n\n  #first_line {\n    font-size: 26px;\n  }\n\n  #second_line, #third_line {\n    font-size: 16px;\n  }\n\n  .tile {\n    display: block;\n    width: 80%;\n    padding-bottom: 80%;\n    margin: 0 auto;\n  }\n\n  .tile_content {\n    font-size: 18px;\n    padding: 10px;\n  }\n}\n\n@media only screen and (max-width : 480px) and (min-width : 401px) {\n  /* Smartphone view: 1 tile */\n  .intro {\n    margin-top: 30%;\n    margin-bottom: 25%;\n  }\n\n  #first_line {\n    font-size: 32px;\n  }\n\n  #second_line, #third_line {\n    font-size: 20px;\n  }\n\n  .tile {\n    display: block;\n    width: 80%;\n    padding-bottom: 80%;\n    margin: 0 auto;\n  }\n\n  .tile_content {\n    font-size: 22px;\n    padding: 10px;\n  }\n}\n\n@media only screen and (max-width : 650px) and (min-width : 481px) {\n  /* Tablet view: 2 tiles */\n  .tile {\n    width: 49%;\n    padding-bottom: 49%;\n  }\n}\n\n@media only screen and (max-width : 1050px) and (min-width : 651px) {\n  /* Small desktop / iPad view: 2 tiles */\n  .tile {\n    width: 49%;\n    padding-bottom: 49%;\n  }\n}\n\n@media only screen and (max-width : 1290px) and (min-width : 1051px) {\n  /* Medium desktop: 4 tiles */\n  .tile {\n    width: 49%;\n    padding-bottom: 49%;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -26951,63 +26951,79 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'container' },
 	        _react2.default.createElement(
 	          'div',
-	          null,
+	          { className: 'col', id: 'left' },
+	          this.props.children,
 	          _react2.default.createElement(
-	            'ul',
-	            { className: 'navigation' },
+	            'footer',
+	            null,
 	            _react2.default.createElement(
-	              'li',
-	              { className: 'pages' },
-	              _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: '/blog' },
-	                'Blog'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              { className: 'pages' },
-	              _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: '/portfolio' },
-	                'Portfolio'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              { className: 'pages' },
-	              _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: '/about' },
-	                'About'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'li',
-	              { className: 'pages' },
-	              _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: '/' },
-	                'Home'
-	              )
+	              'span',
+	              { id: 'copyright' },
+	              '\xA9 COPYRIGHT 2016-17'
 	            )
 	          )
 	        ),
 	        _react2.default.createElement(
-	          'main',
-	          null,
-	          this.props.children
-	        ),
-	        _react2.default.createElement(
-	          'footer',
-	          null,
+	          'div',
+	          { className: 'col', id: 'right' },
 	          _react2.default.createElement(
 	            'div',
-	            { id: 'copyright' },
-	            '\xA9 COPYRIGHT 2016-17'
+	            { className: 'tiles' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'tile' },
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'tile_content' },
+	                  'Home'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'tile' },
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/about' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'tile_content' },
+	                  'About'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'tile' },
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/portfolio' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'tile_content' },
+	                  'Portfolio'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'tile' },
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/blog' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'tile_content' },
+	                  'Blog'
+	                )
+	              )
+	            )
 	          )
 	        )
 	      );
@@ -27019,6 +27035,21 @@
 
 	var _default = Home;
 	exports.default = _default;
+
+	// <div className="navbar">
+	//   <ul className="navigation">
+	//     <li className="pages"><Link to="/blog">Blog</Link></li>
+	//     <li className="pages"><Link to="/portfolio">Portfolio</Link></li>
+	//     <li className="pages"><Link to="/about">About</Link></li>
+	//     <li className="pages"><Link to="/">Home</Link></li>
+	//   </ul>
+	// </div>
+
+
+	// <div>
+	//   <div className="tiles"><Link to="/about">WHERE ARE YOU</Link></div>
+	// </div>
+
 	;
 
 	var _temp = function () {
@@ -27073,40 +27104,44 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'main' },
+	        { className: 'biography' },
+	        _react2.default.createElement('img', { id: 'profile_picture', src: 'src/css/leetsai.png', alt: 'profile_picture' }),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container' },
+	          { className: 'intro' },
 	          _react2.default.createElement(
-	            'div',
-	            { className: 'biography' },
-	            _react2.default.createElement('img', { id: 'profile_picture', src: 'src/css/leetsai.png', alt: 'profile_picture' }),
-	            _react2.default.createElement(
-	              'p',
-	              { id: 'first_line' },
-	              'Hey, I\'m Lee,'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              { id: 'second_line' },
-	              'an American full-stack developer working'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              { id: 'third_line' },
-	              'in San Francisco'
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'social_media' },
-	              _react2.default.createElement(
-	                'a',
-	                { href: 'https://linkedin.com/in/leetsai' },
-	                _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-2x', 'aria-hidden': 'true' })
-	              ),
-	              _react2.default.createElement('i', { className: 'fa fa-github fa-2x', 'aria-hidden': 'true' }),
-	              _react2.default.createElement('i', { className: 'fa fa-angellist fa-2x', 'aria-hidden': 'true' })
-	            )
+	            'p',
+	            { id: 'first_line' },
+	            'Hi, I\'m Lee!'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            { id: 'second_line' },
+	            'a full-stack developer working'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            { id: 'third_line' },
+	            'in San Francisco'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'social_media' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://linkedin.com/in/leetsai', target: '_blank' },
+	            _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-2x', 'aria-hidden': 'true', id: 'linkedin' })
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://github.com/leetsai', target: '_blank' },
+	            _react2.default.createElement('i', { className: 'fa fa-github fa-2x', 'aria-hidden': 'true', id: 'github' })
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://angel.co/leetsai', target: '_blank' },
+	            _react2.default.createElement('i', { className: 'fa fa-angellist fa-2x', 'aria-hidden': 'true', id: 'angellist' })
 	          )
 	        )
 	      );
