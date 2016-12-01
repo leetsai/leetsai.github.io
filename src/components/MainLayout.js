@@ -5,17 +5,17 @@ class Home extends Component {
   render() {
     return (
       <div className="container">
-        <div className="col">
+        <div className="col" id="left">
           {this.props.children}
 
           <footer>
-            <div id="copyright">
+            <span id="copyright">
               © COPYRIGHT 2016-17
-            </div>
+            </span>
           </footer>
         </div>
 
-        <div className="col">
+        <div className="col" id="right">
           <div className="tiles">
             <div className="tile">
               <Link to="/">
