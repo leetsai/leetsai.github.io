@@ -9,25 +9,6 @@ html {
   -webkit-background-size: cover;
 }
 
-/*ul.navigation {
-  color: black;
-  font-family: "Open Sans", "Roboto", "Lato", sans-serif;
-  margin-top: 2%;
-}*/
-
-/*div.navbar {
-  position: absolute;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
-}*/
-
-/*li.pages {
-  display: inline;
-  float: right;
-  font-size: 1em;
-  margin-right: 3%;
-}*/
-
 .container {
   align-items: center;
   background-color: rgba(0, 0, 20, 0.65);
@@ -39,6 +20,13 @@ html {
 
 .col {
   width: 50%;
+  height: 100%;
+}
+
+.tiles {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .tile {
@@ -71,6 +59,9 @@ body {
 .biography {
   color: #E4F1FE;
   text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #first_line {
@@ -84,7 +75,7 @@ body {
 }
 
 .social_media {
-  margin: 50px auto;
+  margin: 5% auto;
   width: 150px;
 }
 
@@ -113,7 +104,7 @@ i.fa:hover {
   border-radius: 100%;
   display: block;
   height: 200px;
-  margin: 6% auto 10%;
+  margin: 0 auto 8%;
   width: 200px;
 }
 
@@ -121,7 +112,7 @@ i.fa:hover {
   bottom: 0.75%;
   color: #fff;
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 0.5em;
   margin-left: 0.5%;
   position: fixed;
 }
