@@ -173,17 +173,17 @@ a {
 @media only screen and (max-width : 575px) {
   /* Smartphone view: 1 tile */
   #first_line {
-    font-size: 1.618em;
+    font-size: 1em;
   }
 
   #the_rest {
-    font-size: 1em;
+    font-size: 0.618em;
   }
 
   .tile {
     display: block;
-    width: 70%;
-    padding-bottom: 70%;
+    width: 60%;
+    padding-bottom: 60%;
   }
 
   .tile_content {
@@ -200,8 +200,8 @@ a {
 
   .tile {
     display: block;
-    width: 60%;
-    padding-bottom: 60%;
+    width: 50%;
+    padding-bottom: 50%;
   }
 
   .tile_content {
