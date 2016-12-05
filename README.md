@@ -1,13 +1,12 @@
 # Lee Tsai @ (leetsai.github.io)
 
-Nice, you've found my personal website!
+Awesome! You've found my personal website! Visit it [here](https://leetsai.github.io/)
 
-[Visit it here](https://leetsai.github.io/){:target="_blank"}
-
-- Built entirely with:
+## Built entirely with:
   - Atom
   - Babel
-  - CSS (vanilla)
+  - CSS3
+  - HTML5
   - JavaScript
   - React
   - Webpack
