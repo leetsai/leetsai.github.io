@@ -168,6 +168,15 @@ a {
   background-color: rgba(238, 238, 238, .50);
 }
 
+/* Resume
+----------------------------------------------- */
+#resume {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
 /* Responsive layouts
 ----------------------------------------------- */
 @media only screen and (max-width : 575px) {
