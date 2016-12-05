@@ -9,6 +9,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Blog from './components/Blog';
+import Resume from './components/Resume';
 
 // Routes
 const routes = (
@@ -20,6 +21,8 @@ const routes = (
         <Route path="/portfolio" component={ Portfolio } />
         <Route path="/blog" component={ Blog } />
       </Route>
+
+      <Route path="/resume" component={ Resume } />
     </Route>
   </Router>
 );
