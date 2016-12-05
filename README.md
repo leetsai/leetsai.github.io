@@ -6,6 +6,11 @@ Awesome! You've found my personal website! Visit it [here](https://leetsai.githu
   - Atom
   - Babel
   - CSS3
+    - Reset CSS
+    - Font Awesome
+    - Google Fonts
+    - Media Queries
+    - Modular Scale
   - HTML5
   - JavaScript
   - React
