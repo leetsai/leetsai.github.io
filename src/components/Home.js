@@ -8,11 +8,11 @@ class Home extends Component {
         <img id="profile_picture" src="src/css/leetsai.png" alt="profile_picture" />
 
         <p className="intro">
-          <div id="first_line">Hi, I'm Lee!</div>
-          <div id="the_rest">
+          <span id="first_line">Hi, I'm Lee!</span> <br></br>
+          <span id="the_rest">
             a full-stack web developer <br></br>
             working in San Francisco
-          </div>
+          </span>
         </p>
 
         <div className="social_media">
