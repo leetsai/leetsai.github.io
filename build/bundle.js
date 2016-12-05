@@ -21858,7 +21858,7 @@
 
 
 	// module
-	exports.push([module.id, "/*\n-----------------------------------------------\nTypesetting for Lee's personal website\n\nhttp://www.modularscale.com/?16&px&1.618&web&text\n16px @ 1:1.618\n----------------------------------------------- */\n\n\n/* CSS Reset\n----------------------------------------------- */\nhtml {\n  background-attachment: fixed;\n  background-image: url(https://latimesherocomplex.files.wordpress.com/2014/10/la_ca_1021_big_hero_6_141.jpg);\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: cover;\n  -o-background-size: cover;\n  -moz-background-size: cover;\n  -webkit-background-size: cover;\n}\n\n/* Baseline type + layout\n----------------------------------------------- */\nbody {\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n  font-size: 16px; /* Scale origin */\n  border-top: 6px rgba(34, 49, 63, 1) solid;\n  color: rgba(228, 241, 254, 1);\n}\n\n.container {\n  background-color: rgba(0, 0, 20, 0.65);\n  display: flex;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n}\n\n.col {\n  height: 100%;\n}\n\n#left {\n  width: 60%;\n}\n\n#right {\n  width: 40%;\n  /*margin: 30px 34px 0 0;*/\n}\n\nh1, h2, h3, p {\n  text-rendering: optimizeLegibility;\n}\n\nh1 {\n\tline-height: 1;\n\tfont-weight: normal;\n}\n\np {\n  margin: 1em 0;\n  line-height: 1.5;\n}\n\n/* Biography\n---------------------- */\n.biography {\n  position: relative;\n  text-align: center;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n#profile_picture {\n  border: 2px solid #E4F1FE;\n  border-radius: 7.5%;\n  height: auto;\n  max-width: 180px;\n  width: 65%;\n}\n\n/* Blurb\n---------------------- */\n.intro {\n  /*margin: 8% 4% 6%;*/\n  margin: 1em 1.5em;\n  font-size: 21px;\n}\n\n#first_line {\n  font-size: 2.618em;\n}\n\n#the_rest {\n  font-size: 1em;\n}\n\n.social_media {\n  margin: 0 auto;\n}\n\n.fa {\n  margin: 0 10px;\n}\n\n#copyright {\n  bottom: 0.5%;\n  font-family: 'Roboto', Arial, sans-serif;\n  font-size: 0.382em;\n  margin-left: 0.5%;\n  position: fixed;\n}\n\n/* Links\n----------------------------------------------- */\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n.fa:hover {\n  transition-duration: 0.2s;\n}\n\n#linkedin:hover {\n  color: rgb(30, 135, 189);\n}\n\n#github:hover {\n  color: rgb(51, 51, 51);\n}\n\n#angellist:hover {\n  color: rgb(152, 152, 152);\n}\n\n/* Navigation\n----------------------------------------------- */\n.tiles {\n  position: relative;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.tile {\n  display: inline-block;\n  margin: 0 auto;\n  padding-bottom: 49%;\n  position: relative;\n  width: 49%;\n}\n\n.tile_content {\n  background-color: rgba(238, 238, 238, .33);\n  bottom: 5px;\n  color: white;\n  font-size: 25px;\n  left: 5px;\n  padding: 20px;\n  position: absolute;\n  right: 5px;\n  top: 5px;\n}\n\n.tile_content:hover {\n  background-color: rgba(238, 238, 238, .50);\n}\n\n/* Responsive layouts\n----------------------------------------------- */\n@media only screen and (max-width : 575px) {\n  /* Smartphone view: 1 tile */\n  #first_line {\n    font-size: 1em;\n  }\n\n  #the_rest {\n    font-size: 0.618em;\n  }\n\n  .tile {\n    display: block;\n    width: 60%;\n    padding-bottom: 60%;\n  }\n\n  .tile_content {\n    font-size: 1em;\n    padding: 0.618em;\n  }\n}\n\n@media only screen and (max-width : 750px) and (min-width : 576px) {\n  /* Small desktop / iPad view: 2 tiles */\n  #first_line {\n    font-size: 1.618em;\n  }\n\n  .tile {\n    display: block;\n    width: 50%;\n    padding-bottom: 50%;\n  }\n\n  .tile_content {\n    font-size: 1em;\n    padding: 0.618em;\n  }\n}\n\n@media only screen and (max-width : 1050px) and (min-width : 751px) {\n  /* Small desktop / iPad view: 2 tiles */\n  .tile {\n    padding-bottom: 49%;\n    width: 49%;\n  }\n\n  .tile_content {\n    font-size: 1.618em;\n    padding: 0.618em;\n  }\n}\n", ""]);
+	exports.push([module.id, "/*\n-----------------------------------------------\nTypesetting for Lee's personal website\n\nhttp://www.modularscale.com/?16&px&1.618&web&text\n16px @ 1:1.618\n----------------------------------------------- */\n\n\n/* CSS Reset\n----------------------------------------------- */\nhtml {\n  background-attachment: fixed;\n  background-image: url(https://latimesherocomplex.files.wordpress.com/2014/10/la_ca_1021_big_hero_6_141.jpg);\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: cover;\n  -o-background-size: cover;\n  -moz-background-size: cover;\n  -webkit-background-size: cover;\n}\n\n/* Baseline type + layout\n----------------------------------------------- */\nbody {\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n  font-size: 16px; /* Scale origin */\n  border-top: 6px rgba(34, 49, 63, 1) solid;\n  color: rgba(228, 241, 254, 1);\n}\n\n.container {\n  background-color: rgba(0, 0, 20, 0.65);\n  display: flex;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n}\n\n.col {\n  height: 100%;\n}\n\n#left {\n  width: 60%;\n}\n\n#right {\n  width: 40%;\n  /*margin: 30px 34px 0 0;*/\n}\n\nh1, h2, h3, p {\n  text-rendering: optimizeLegibility;\n}\n\nh1 {\n\tline-height: 1;\n\tfont-weight: normal;\n}\n\np {\n  margin: 1em 0;\n  line-height: 1.5;\n}\n\n/* Biography\n---------------------- */\n.biography {\n  position: relative;\n  text-align: center;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n#profile_picture {\n  border: 2px solid #E4F1FE;\n  border-radius: 7.5%;\n  height: auto;\n  max-width: 180px;\n  width: 65%;\n}\n\n/* Blurb\n---------------------- */\n.intro {\n  /*margin: 8% 4% 6%;*/\n  margin: 1em 1.5em;\n  font-size: 21px;\n}\n\n#first_line {\n  font-size: 2.618em;\n}\n\n#the_rest {\n  font-size: 1em;\n}\n\n.social_media {\n  margin: 0 auto;\n}\n\n.fa {\n  margin: 0 10px;\n}\n\n#copyright {\n  bottom: 0.5%;\n  font-family: 'Roboto', Arial, sans-serif;\n  font-size: 0.382em;\n  margin-left: 0.5%;\n  position: fixed;\n}\n\n/* Links\n----------------------------------------------- */\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n.fa:hover {\n  transition-duration: 0.2s;\n}\n\n#linkedin:hover {\n  color: rgb(30, 135, 189);\n}\n\n#github:hover {\n  color: rgb(51, 51, 51);\n}\n\n#angellist:hover {\n  color: rgb(152, 152, 152);\n}\n\n/* Navigation\n----------------------------------------------- */\n.tiles {\n  position: relative;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.tile {\n  display: inline-block;\n  margin: 0 auto;\n  padding-bottom: 49%;\n  position: relative;\n  width: 49%;\n}\n\n.tile_content {\n  background-color: rgba(238, 238, 238, .33);\n  bottom: 5px;\n  color: white;\n  font-size: 25px;\n  left: 5px;\n  padding: 20px;\n  position: absolute;\n  right: 5px;\n  top: 5px;\n}\n\n.tile_content:hover {\n  background-color: rgba(238, 238, 238, .50);\n}\n\n/* Resume\n----------------------------------------------- */\n#resume {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n\n/* Responsive layouts\n----------------------------------------------- */\n@media only screen and (max-width : 575px) {\n  /* Smartphone view: 1 tile */\n  #first_line {\n    font-size: 1em;\n  }\n\n  #the_rest {\n    font-size: 0.618em;\n  }\n\n  .tile {\n    display: block;\n    width: 60%;\n    padding-bottom: 60%;\n  }\n\n  .tile_content {\n    font-size: 1em;\n    padding: 0.618em;\n  }\n}\n\n@media only screen and (max-width : 750px) and (min-width : 576px) {\n  /* Small desktop / iPad view: 2 tiles */\n  #first_line {\n    font-size: 1.618em;\n  }\n\n  .tile {\n    display: block;\n    width: 50%;\n    padding-bottom: 50%;\n  }\n\n  .tile_content {\n    font-size: 1em;\n    padding: 0.618em;\n  }\n}\n\n@media only screen and (max-width : 1050px) and (min-width : 751px) {\n  /* Small desktop / iPad view: 2 tiles */\n  .tile {\n    padding-bottom: 49%;\n    width: 49%;\n  }\n\n  .tile_content {\n    font-size: 1.618em;\n    padding: 0.618em;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -21903,13 +21903,13 @@
 
 	var _Blog2 = _interopRequireDefault(_Blog);
 
+	var _Resume = __webpack_require__(246);
+
+	var _Resume2 = _interopRequireDefault(_Resume);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	// Routes
-
-
-	// Components
-	// Libs
 	var routes = _react2.default.createElement(
 	  _reactRouter.Router,
 	  { history: _reactRouter.browserHistory },
@@ -21923,10 +21923,13 @@
 	      _react2.default.createElement(_reactRouter.Route, { path: '/about', component: _About2.default }),
 	      _react2.default.createElement(_reactRouter.Route, { path: '/portfolio', component: _Portfolio2.default }),
 	      _react2.default.createElement(_reactRouter.Route, { path: '/blog', component: _Blog2.default })
-	    )
+	    ),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/resume', component: _Resume2.default })
 	  )
 	);
 
+	// Components
+	// Libs
 	var _default = routes;
 	exports.default = _default;
 	;
@@ -27110,12 +27113,14 @@
 	          'p',
 	          { className: 'intro' },
 	          _react2.default.createElement(
-	            'div',
+	            'span',
 	            { id: 'first_line' },
 	            'Hi, I\'m Lee!'
 	          ),
+	          ' ',
+	          _react2.default.createElement('br', null),
 	          _react2.default.createElement(
-	            'div',
+	            'span',
 	            { id: 'the_rest' },
 	            'a full-stack web developer ',
 	            _react2.default.createElement('br', null),
@@ -27180,6 +27185,8 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _reactRouter = __webpack_require__(185);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27201,9 +27208,15 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'h1',
+	        'div',
 	        null,
-	        'About Lee'
+	        'Check out my ',
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: '/resume' },
+	          'Resume'
+	        ),
+	        ' here'
 	      );
 	    }
 	  }]);
@@ -27349,6 +27362,69 @@
 	  __REACT_HOT_LOADER__.register(Blog, 'Blog', '/Users/Lee/leetsai.github.io/src/components/Blog.js');
 
 	  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Lee/leetsai.github.io/src/components/Blog.js');
+	}();
+
+	;
+
+/***/ },
+/* 246 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Resume = function (_Component) {
+	  _inherits(Resume, _Component);
+
+	  function Resume() {
+	    _classCallCheck(this, Resume);
+
+	    return _possibleConstructorReturn(this, (Resume.__proto__ || Object.getPrototypeOf(Resume)).apply(this, arguments));
+	  }
+
+	  _createClass(Resume, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement("object", { id: "resume", data: "src/Resume_Tsai.pdf#page=1zoom=450", type: "application/pdf" })
+	      );
+	    }
+	  }]);
+
+	  return Resume;
+	}(_react.Component);
+
+	var _default = Resume;
+	exports.default = _default;
+	;
+
+	var _temp = function () {
+	  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+	    return;
+	  }
+
+	  __REACT_HOT_LOADER__.register(Resume, "Resume", "/Users/Lee/leetsai.github.io/src/components/Resume.js");
+
+	  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Lee/leetsai.github.io/src/components/Resume.js");
 	}();
 
 	;
