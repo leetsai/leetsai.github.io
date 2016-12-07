@@ -23,8 +23,8 @@ class Home extends Component {
               </Link>
             </div>
             <div className="tile">
-              <Link to="/about">
-                <div className="tile_content">About</div>
+              <Link to="/resume">
+                <div className="tile_content">Resume</div>
               </Link>
             </div>
             <div className="tile">
@@ -45,20 +45,3 @@ class Home extends Component {
 }
 
 export default Home;
-
-
-
-
-// <div className="navbar">
-//   <ul className="navigation">
-//     <li className="pages"><Link to="/blog">Blog</Link></li>
-//     <li className="pages"><Link to="/portfolio">Portfolio</Link></li>
-//     <li className="pages"><Link to="/about">About</Link></li>
-//     <li className="pages"><Link to="/">Home</Link></li>
-//   </ul>
-// </div>
-
-
-// <div>
-//   <div className="tiles"><Link to="/about">WHERE ARE YOU</Link></div>
-// </div>
