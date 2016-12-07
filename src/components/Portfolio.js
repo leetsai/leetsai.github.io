@@ -1,40 +1,35 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 class Portfolio extends Component {
   render() {
     return (
       <div className="projects">
         <div className="project">
-          <h2> Wanderlist </h2>
-          <h3> “Buzzfeed meets Reddit” </h3>
-
-          <div className="project_meat">
-            <div className="project_left">
+          <div className="project_left">
+            <a href="https://wanderlists.herokuapp.com" target="_blank">
               <img className="thumbnail" src="src/wanderlist2.png" alt="Image" />
-              <span className="hover_text"> TESTING </span>
-            </div>
+            </a>
+            <span className="hover_text"> TESTING </span>
+          </div>
 
-            <div className="project_right">
-              <div className="write-up">
-                 <p>Wanderlist is a platform for authors and readers to create, comment, and vote on interesting lists</p>
-              </div>
+          <div className="project_right">
+            <div className="write-up">
+               <p>Wanderlist is a platform for authors and readers to create, comment, and vote on interesting lists</p>
             </div>
           </div>
         </div>
 
         <div className="project">
-          <h2> Spontaneo </h2>
-          <h3> "Need an adventure?" </h3>
-
-          <div className="project_meat">
-            <div className="project_left">
+          <div className="project_left">
+            <a href="https://spontaneo.herokuapp.com" target="_blank">
               <img className="thumbnail" src="src/spontaneo.png" alt="Image" />
-            </div>
+            </a>
+          </div>
 
-            <div className="project_right">
-              <div className="write-up">
-                <p>Spontaneo is an idea generating tool designed to help users discover fun activities and top-rated restaurants</p>
-              </div>
+          <div className="project_right">
+            <div className="write-up">
+              <p>Spontaneo is an idea generating tool designed to help users discover fun activities and top-rated restaurants</p>
             </div>
           </div>
         </div>

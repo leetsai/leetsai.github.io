@@ -191,14 +191,6 @@ a {
 .project {
   display: flex;
     display: -webkit-flex;
-  flex-direction: column;
-    -webkit-flex-direction: column;
-  justify-content: space-between;
-}
-
-.project_meat {
-  display: flex;
-    display: -webkit-flex;
   flex-direction: row;
     -webkit-flex-direction: row;
   justify-content: space-between;
