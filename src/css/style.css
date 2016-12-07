@@ -9,29 +9,30 @@ http://www.modularscale.com/?16&px&1.618&web&text
 
 /* CSS Reset
 ----------------------------------------------- */
-html {
-  background-attachment: fixed;
-  background-image: url(https://latimesherocomplex.files.wordpress.com/2014/10/la_ca_1021_big_hero_6_141.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-}
+/* See reset.css file */
 
 /* Baseline type + layout
 ----------------------------------------------- */
 body {
+  background-attachment: fixed;
+  background-image: url(https://latimesherocomplex.files.wordpress.com/2014/10/la_ca_1021_big_hero_6_141.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+
   font-family: "Open Sans", "Roboto", "Lato", sans-serif;
   font-size: 16px; /* Scale origin */
   border-top: 6px rgba(34, 49, 63, 1) solid;
-  color: rgba(228, 241, 254, 1);
+  color: rgba(238, 238, 238, 1);
 }
 
 .container {
   background-color: rgba(0, 0, 20, 0.65);
   display: flex;
+    display: -webkit-flex;
   height: 100%;
   position: absolute;
   width: 100%;
@@ -57,6 +58,11 @@ h1, h2, h3, p {
 h1 {
 	line-height: 1;
 	font-weight: normal;
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 1.618em;
 }
 
 p {
@@ -166,6 +172,63 @@ a {
 
 .tile_content:hover {
   background-color: rgba(238, 238, 238, .50);
+}
+
+/* Portfolio
+----------------------------------------------- */
+.projects {
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+  margin: 5% auto;
+  display: flex;
+    display: -webkit-flex;
+  flex-direction: column;
+    -webkit-flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.project {
+  display: flex;
+    display: -webkit-flex;
+  flex-direction: column;
+    -webkit-flex-direction: column;
+  justify-content: space-between;
+}
+
+.project_meat {
+  display: flex;
+    display: -webkit-flex;
+  flex-direction: row;
+    -webkit-flex-direction: row;
+  justify-content: space-between;
+}
+
+.project {
+  padding: 5%;
+}
+
+.project_left {
+  width: 55%;
+}
+
+.project_right {
+  width: 45%;
+}
+
+.thumbnail {
+  width: 95%;
+}
+
+.write-up p {
+  color: rgba(238, 238, 238, 1);
+  margin: 0;
+}
+
+.thumbnail:hover {
+  opacity: 0.75;
+  box-shadow: 3px 3px 1px rgba(191, 191, 191, 1);
+  cursor: pointer;
 }
 
 /* Resume
