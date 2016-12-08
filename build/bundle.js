@@ -21858,7 +21858,7 @@
 
 
 	// module
-	exports.push([module.id, "/*\n-----------------------------------------------\nTypesetting for Lee's personal website\n\nhttp://www.modularscale.com/?16&px&1.618&web&text\n16px @ 1:1.618\n----------------------------------------------- */\n\n\n/* CSS Reset\n----------------------------------------------- */\nhtml {\n  background-attachment: fixed;\n  background-image: url(https://latimesherocomplex.files.wordpress.com/2014/10/la_ca_1021_big_hero_6_141.jpg);\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: cover;\n  -o-background-size: cover;\n  -moz-background-size: cover;\n  -webkit-background-size: cover;\n}\n\n/* Baseline type + layout\n----------------------------------------------- */\nbody {\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n  font-size: 16px; /* Scale origin */\n  border-top: 6px rgba(34, 49, 63, 1) solid;\n  color: rgba(228, 241, 254, 1);\n}\n\n.container {\n  background-color: rgba(0, 0, 20, 0.65);\n  display: flex;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n}\n\n.col {\n  height: 100%;\n}\n\n#left {\n  width: 60%;\n}\n\n#right {\n  width: 40%;\n  /*margin: 30px 34px 0 0;*/\n}\n\nh1, h2, h3, p {\n  text-rendering: optimizeLegibility;\n}\n\nh1 {\n\tline-height: 1;\n\tfont-weight: normal;\n}\n\np {\n  margin: 1em 0;\n  line-height: 1.5;\n}\n\n/* Biography\n---------------------- */\n.biography {\n  position: relative;\n  text-align: center;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n#profile_picture {\n  border: 2px solid #E4F1FE;\n  border-radius: 7.5%;\n  height: auto;\n  max-width: 180px;\n  width: 65%;\n}\n\n/* Blurb\n---------------------- */\n.intro {\n  /*margin: 8% 4% 6%;*/\n  margin: 1em 1.5em;\n  font-size: 21px;\n}\n\n#first_line {\n  font-size: 2.618em;\n}\n\n#the_rest {\n  font-size: 1em;\n}\n\n.social_media {\n  margin: 0 auto;\n}\n\n.fa {\n  margin: 0 10px;\n}\n\n#copyright {\n  bottom: 0.5%;\n  font-family: 'Roboto', Arial, sans-serif;\n  font-size: 0.382em;\n  margin-left: 0.5%;\n  position: fixed;\n}\n\n/* Links\n----------------------------------------------- */\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n.fa:hover {\n  transition-duration: 0.2s;\n}\n\n#linkedin:hover {\n  color: rgb(30, 135, 189);\n}\n\n#github:hover {\n  color: rgb(51, 51, 51);\n}\n\n#angellist:hover {\n  color: rgb(152, 152, 152);\n}\n\n/* Navigation\n----------------------------------------------- */\n.tiles {\n  position: relative;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.tile {\n  display: inline-block;\n  margin: 0 auto;\n  padding-bottom: 49%;\n  position: relative;\n  width: 49%;\n}\n\n.tile_content {\n  background-color: rgba(238, 238, 238, .33);\n  bottom: 5px;\n  color: white;\n  font-size: 25px;\n  left: 5px;\n  padding: 20px;\n  position: absolute;\n  right: 5px;\n  top: 5px;\n}\n\n.tile_content:hover {\n  background-color: rgba(238, 238, 238, .50);\n}\n\n/* Resume\n----------------------------------------------- */\n#resume {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n\n/* Responsive layouts\n----------------------------------------------- */\n@media only screen and (max-width : 575px) {\n  /* Smartphone view: 1 tile */\n  #first_line {\n    font-size: 1em;\n  }\n\n  #the_rest {\n    font-size: 0.618em;\n  }\n\n  .tile {\n    display: block;\n    width: 60%;\n    padding-bottom: 60%;\n  }\n\n  .tile_content {\n    font-size: 1em;\n    padding: 0.618em;\n  }\n}\n\n@media only screen and (max-width : 750px) and (min-width : 576px) {\n  /* Small desktop / iPad view: 2 tiles */\n  #first_line {\n    font-size: 1.618em;\n  }\n\n  .tile {\n    display: block;\n    width: 50%;\n    padding-bottom: 50%;\n  }\n\n  .tile_content {\n    font-size: 1em;\n    padding: 0.618em;\n  }\n}\n\n@media only screen and (max-width : 1050px) and (min-width : 751px) {\n  /* Small desktop / iPad view: 2 tiles */\n  .tile {\n    padding-bottom: 49%;\n    width: 49%;\n  }\n\n  .tile_content {\n    font-size: 1.618em;\n    padding: 0.618em;\n  }\n}\n", ""]);
+	exports.push([module.id, "/*\n-----------------------------------------------\nTypesetting for Lee's personal website\n\nhttp://www.modularscale.com/?16&px&1.618&web&text\n16px @ 1:1.618\n----------------------------------------------- */\n\n\n/* CSS Reset\n----------------------------------------------- */\n/* See reset.css file */\n\n/* Baseline type + layout\n----------------------------------------------- */\nbody {\n  background-attachment: fixed;\n  background-image: url(https://latimesherocomplex.files.wordpress.com/2014/10/la_ca_1021_big_hero_6_141.jpg);\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: cover;\n  -o-background-size: cover;\n  -moz-background-size: cover;\n  -webkit-background-size: cover;\n\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n  font-size: 16px; /* Scale origin */\n  border-top: 6px rgba(34, 49, 63, 1) solid;\n  color: rgba(238, 238, 238, 1);\n}\n\n.container {\n  background-color: rgba(0, 0, 20, 0.65);\n  display: flex;\n    display: -webkit-flex;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n}\n\n.col {\n  height: 100%;\n}\n\n#left {\n  width: 60%;\n}\n\n#right {\n  width: 40%;\n  /*margin: 30px 34px 0 0;*/\n}\n\nh1, h2, h3, p {\n  text-rendering: optimizeLegibility;\n}\n\nh1 {\n\tline-height: 1;\n\tfont-weight: normal;\n  font-size: 2.25em;\n}\n\nh2 {\n  font-size: 1.618em;\n}\n\np {\n  margin: 1em 0;\n  line-height: 1.5;\n}\n\n/* Biography\n---------------------- */\n.biography {\n  position: relative;\n  text-align: center;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n#profile_picture {\n  border: 2px solid #E4F1FE;\n  border-radius: 7.5%;\n  height: auto;\n  max-width: 180px;\n  width: 65%;\n}\n\n/* Blurb\n---------------------- */\n.intro {\n  /*margin: 8% 4% 6%;*/\n  margin: 1em 1.5em;\n  font-size: 21px;\n}\n\n#first_line {\n  font-size: 2.618em;\n}\n\n#the_rest {\n  font-size: 1em;\n}\n\n.social_media {\n  margin: 0 auto;\n}\n\n.fa {\n  margin: 0 10px;\n}\n\n#copyright {\n  bottom: 0.5%;\n  font-family: 'Roboto', Arial, sans-serif;\n  font-size: 0.382em;\n  margin-left: 0.5%;\n  position: fixed;\n}\n\n/* Links\n----------------------------------------------- */\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n.fa:hover {\n  transition-duration: 0.2s;\n}\n\n#linkedin:hover {\n  color: rgb(30, 135, 189);\n}\n\n#github:hover {\n  color: rgb(51, 51, 51);\n}\n\n#angellist:hover {\n  color: rgb(152, 152, 152);\n}\n\n/* Navigation\n----------------------------------------------- */\n.tiles {\n  position: relative;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.tile {\n  display: inline-block;\n  margin: 0 auto;\n  padding-bottom: 49%;\n  position: relative;\n  width: 49%;\n}\n\n.tile_content {\n  background-color: rgba(238, 238, 238, .33);\n  bottom: 5px;\n  color: white;\n  font-size: 25px;\n  left: 5px;\n  padding: 20px;\n  position: absolute;\n  right: 5px;\n  top: 5px;\n}\n\n.tile_content:hover {\n  background-color: rgba(238, 238, 238, .50);\n}\n\n/* Portfolio\n----------------------------------------------- */\n.projects {\n  /*background-color: rgba(255, 255, 255, 0.5);*/\n  margin: 5% auto;\n  display: flex;\n    display: -webkit-flex;\n  flex-direction: column;\n    -webkit-flex-direction: column;\n  justify-content: center;\n  width: 80%;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.project {\n  display: flex;\n    display: -webkit-flex;\n  flex-direction: row;\n    -webkit-flex-direction: row;\n  justify-content: space-between;\n}\n\n.project {\n  padding: 5%;\n}\n\n.project_left {\n  width: 55%;\n}\n\n.project_right {\n  width: 45%;\n}\n\n.thumbnail {\n  width: 95%;\n}\n\n.project_right {\n  overflow-y: auto;\n}\n\n.project_right p {\n  color: rgba(238, 238, 238, 1);\n  margin: 0;\n}\n\n.thumbnail:hover {\n  opacity: 0.75;\n  box-shadow: 3px 3px 1px rgba(191, 191, 191, 1);\n  cursor: pointer;\n}\n\n/* Resume\n----------------------------------------------- */\n#resume {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n\n/* Responsive layouts\n----------------------------------------------- */\n@media only screen and (max-width : 575px) {\n  /* Smartphone view: 1 tile */\n  #first_line {\n    font-size: 1em;\n  }\n\n  #the_rest {\n    font-size: 0.618em;\n  }\n\n  .tile {\n    display: block;\n    width: 60%;\n    padding-bottom: 60%;\n  }\n\n  .tile_content {\n    font-size: 1em;\n    padding: 0.618em;\n  }\n}\n\n@media only screen and (max-width : 750px) and (min-width : 576px) {\n  /* Small desktop / iPad view: 2 tiles */\n  #first_line {\n    font-size: 1.618em;\n  }\n\n  .tile {\n    display: block;\n    width: 50%;\n    padding-bottom: 50%;\n  }\n\n  .tile_content {\n    font-size: 1em;\n    padding: 0.618em;\n  }\n}\n\n@media only screen and (max-width : 1050px) and (min-width : 751px) {\n  /* Small desktop / iPad view: 2 tiles */\n  .tile {\n    padding-bottom: 49%;\n    width: 49%;\n  }\n\n  .tile_content {\n    font-size: 1.618em;\n    padding: 0.618em;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -21891,25 +21891,25 @@
 
 	var _Home2 = _interopRequireDefault(_Home);
 
-	var _About = __webpack_require__(243);
-
-	var _About2 = _interopRequireDefault(_About);
-
-	var _Portfolio = __webpack_require__(244);
+	var _Portfolio = __webpack_require__(243);
 
 	var _Portfolio2 = _interopRequireDefault(_Portfolio);
 
-	var _Blog = __webpack_require__(245);
+	var _Blog = __webpack_require__(244);
 
 	var _Blog2 = _interopRequireDefault(_Blog);
 
-	var _Resume = __webpack_require__(246);
+	var _Resume = __webpack_require__(245);
 
 	var _Resume2 = _interopRequireDefault(_Resume);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	// Routes
+
+
+	// Components
+	// Libs
 	var routes = _react2.default.createElement(
 	  _reactRouter.Router,
 	  { history: _reactRouter.browserHistory },
@@ -21920,7 +21920,6 @@
 	      _reactRouter.Route,
 	      { component: _MainLayout2.default },
 	      _react2.default.createElement(_reactRouter.Route, { path: '/', component: _Home2.default }),
-	      _react2.default.createElement(_reactRouter.Route, { path: '/about', component: _About2.default }),
 	      _react2.default.createElement(_reactRouter.Route, { path: '/portfolio', component: _Portfolio2.default }),
 	      _react2.default.createElement(_reactRouter.Route, { path: '/blog', component: _Blog2.default })
 	    ),
@@ -21928,8 +21927,6 @@
 	  )
 	);
 
-	// Components
-	// Libs
 	var _default = routes;
 	exports.default = _default;
 	;
@@ -26993,11 +26990,11 @@
 	              { className: 'tile' },
 	              _react2.default.createElement(
 	                _reactRouter.Link,
-	                { to: '/about' },
+	                { to: '/resume' },
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: 'tile_content' },
-	                  'About'
+	                  'Resume'
 	                )
 	              )
 	            ),
@@ -27038,21 +27035,6 @@
 
 	var _default = Home;
 	exports.default = _default;
-
-	// <div className="navbar">
-	//   <ul className="navigation">
-	//     <li className="pages"><Link to="/blog">Blog</Link></li>
-	//     <li className="pages"><Link to="/portfolio">Portfolio</Link></li>
-	//     <li className="pages"><Link to="/about">About</Link></li>
-	//     <li className="pages"><Link to="/">Home</Link></li>
-	//   </ul>
-	// </div>
-
-
-	// <div>
-	//   <div className="tiles"><Link to="/about">WHERE ARE YOU</Link></div>
-	// </div>
-
 	;
 
 	var _temp = function () {
@@ -27195,75 +27177,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var About = function (_Component) {
-	  _inherits(About, _Component);
-
-	  function About() {
-	    _classCallCheck(this, About);
-
-	    return _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).apply(this, arguments));
-	  }
-
-	  _createClass(About, [{
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        'Check out my ',
-	        _react2.default.createElement(
-	          _reactRouter.Link,
-	          { to: '/resume' },
-	          'Resume'
-	        ),
-	        ' here'
-	      );
-	    }
-	  }]);
-
-	  return About;
-	}(_react.Component);
-
-	var _default = About;
-	exports.default = _default;
-	;
-
-	var _temp = function () {
-	  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-	    return;
-	  }
-
-	  __REACT_HOT_LOADER__.register(About, 'About', '/Users/Lee/leetsai.github.io/src/components/About.js');
-
-	  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Lee/leetsai.github.io/src/components/About.js');
-	}();
-
-	;
-
-/***/ },
-/* 244 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 	var Portfolio = function (_Component) {
 	  _inherits(Portfolio, _Component);
 
@@ -27277,9 +27190,81 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'h1',
-	        null,
-	        'Portfolio page'
+	        'div',
+	        { className: 'projects' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'project' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'project_left' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://wanderlists.herokuapp.com', target: '_blank' },
+	              _react2.default.createElement('img', { className: 'thumbnail', src: 'src/wanderlist2.png', alt: 'Image' })
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'hover_text' },
+	              ' TESTING '
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'project_right' },
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Wanderlist is a platform for authors and readers to create, comment, and vote on interesting lists'
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Built in JavaScript and with React and Redux'
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Check out the code-base here'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'project' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'project_left' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://spontaneo.herokuapp.com', target: '_blank' },
+	              _react2.default.createElement('img', { className: 'thumbnail', src: 'src/spontaneo.png', alt: 'Image' })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'project_right' },
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Spontaneo is an idea generating tool designed to help users discover fun activities and top-rated restaurants'
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Built in JavaScript and with Angular'
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Check out the code-base here'
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);
@@ -27289,6 +27274,39 @@
 
 	var _default = Portfolio;
 	exports.default = _default;
+
+	// <img className="thumbnail" src="src/wanderlist2.png" alt="Image" />
+
+
+	// import React, { Component } from 'react';
+	//
+	// class Portfolio extends Component {
+	//   render() {
+	//     return (
+	//       <div className="projects">
+	//         <h1> Projects by Lee </h1>
+	//         <div className="project">
+	//           <img className="thumbnail" src="src/wanderlist2.png" alt="Image" />
+	//           <div className="write-up">
+	//              <p>Wanderlist is a platform for authors and readers to create, comment, and vote on interesting lists</p>
+	//           </div>
+	//         </div>
+	//
+	//         <div className="project">
+	// <h2 className="project_title"> Spontaneo </h2>
+	// <h3 className="project_caption"> "Need an adventure?" </h3>
+	//           <img className="thumbnail" src="src/spontaneo.png" alt="Image" />
+	//           <div className="write-up">
+	//             <p>Spontaneo is an idea generating tool designed to help users discover fun activities and top-rated restaurants</p>
+	//           </div>
+	//         </div>
+	//       </div>
+	//     );
+	//   }
+	// }
+	//
+	// export default Portfolio;
+
 	;
 
 	var _temp = function () {
@@ -27304,7 +27322,7 @@
 	;
 
 /***/ },
-/* 245 */
+/* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27367,7 +27385,7 @@
 	;
 
 /***/ },
-/* 246 */
+/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
