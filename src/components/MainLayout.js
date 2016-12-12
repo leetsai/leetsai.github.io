@@ -5,39 +5,29 @@ class Home extends Component {
   render() {
     return (
       <div className="container">
-        <div className="col" id="left">
-          {this.props.children}
-
-          <footer>
-            <span id="copyright">
-              © COPYRIGHT 2016-17
-            </span>
-          </footer>
+        <div className="navbar">
+          <ul className="nav_routes">
+            <Link to="/"><li className="nav_words">Home</li></Link>
+            <Link to="/resume"><li className="nav_words">Resume</li></Link>
+            <Link to="/portfolio"><li className="nav_words">Portfolio</li></Link>
+            <Link to="/blog"><li className="nav_words">Blog</li></Link>
+          </ul>
+          <li className="nav_words nav_dropdown">&#9776;
+            <ul className="dropdown_content">
+              <Link to="/"><li>Home</li></Link>
+              <Link to="/resume"><li>Resume</li></Link>
+              <Link to="/portfolio"><li>Portfolio</li></Link>
+              <Link to="/blog"><li>Blog</li></Link>
+            </ul>
+          </li>
         </div>
 
-        <div className="col" id="right">
-          <div className="tiles">
-            <div className="tile">
-              <Link to="/">
-                <div className="tile_content">Home</div>
-              </Link>
-            </div>
-            <div className="tile">
-              <Link to="/resume">
-                <div className="tile_content">Resume</div>
-              </Link>
-            </div>
-            <div className="tile">
-              <Link to="/portfolio">
-                <div className="tile_content">Portfolio</div>
-              </Link>
-            </div>
-            <div className="tile">
-              <Link to="/blog">
-                <div className="tile_content">Blog</div>
-              </Link>
-            </div>
-          </div>
+        <div className="content">
+          {this.props.children}
+        </div>
+
+        <div id="copyright">
+          © COPYRIGHT 2016-17
         </div>
       </div>
     );
