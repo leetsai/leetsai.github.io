@@ -44,6 +44,7 @@ body {
     display: -webkit-flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 h1, h2, h3, p {
@@ -67,6 +68,26 @@ p {
 
 .highlight_text {
   color: rgba(0, 255, 36, 1.0)
+}
+
+.highlight_text2 {
+  color: rgba(0, 220, 255, 1.0)
+}
+
+.highlight_text3 {
+  color: rgba(106, 0, 228, 1.0);
+}
+
+.highlight_text4 {
+  color: rgba(243, 0, 2, 1.0);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.spacing {
+  content: "\00a0 ";
 }
 
 /* Navigation
@@ -138,7 +159,6 @@ p {
 
 .the_rest {
   font-size: 2.618em;
-  text-indent: 10.618em;
 }
 
 .social_media {
@@ -182,52 +202,31 @@ a {
 /* Portfolio
 ----------------------------------------------- */
 .projects {
-  /*background-color: rgba(255, 255, 255, 0.5);*/
-  margin: 5% auto;
-  display: flex;
-    display: -webkit-flex;
-  flex-direction: column;
-    -webkit-flex-direction: column;
-  justify-content: center;
-  width: 80%;
-}
-
-.project {
-  display: flex;
-    display: -webkit-flex;
-  flex-direction: row;
-    -webkit-flex-direction: row;
-  justify-content: space-between;
+  background-color: rgba(38, 38, 38, 1);
+  border: 8px rgba(7, 7, 7, 1) solid;
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px rgba(144, 144, 144, 1),
+              2px 2px 3px rgba(115, 125, 135, 1);
+  width: 75%;
+  margin: 10%;
 }
 
 .project {
   padding: 5%;
 }
 
-.project_left {
-  width: 55%;
-}
-
-.project_right {
-  width: 45%;
+.project p {
+  line-height: 1.25;
 }
 
 .thumbnail {
-  width: 95%;
-}
-
-.project_right {
-  overflow-y: auto;
-}
-
-.project_right p {
-  color: rgba(238, 238, 238, 1);
-  margin: 0;
+  width: 100%;
+  border-radius: 5px;
 }
 
 .thumbnail:hover {
-  opacity: 0.75;
-  box-shadow: 3px 3px 1px rgba(191, 191, 191, 1);
+  opacity: 0.9;
+  box-shadow: 2px 2px 1px rgba(255, 255, 255, 1);
   cursor: pointer;
 }
 
@@ -249,5 +248,15 @@ a {
 
   .nav_dropdown {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 500px) {
+  #first_line {
+    font-size: 2.618em;
+  }
+
+  .the_rest {
+    font-size: 1.618em;
   }
 }

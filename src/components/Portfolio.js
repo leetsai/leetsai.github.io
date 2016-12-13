@@ -6,32 +6,23 @@ class Portfolio extends Component {
     return (
       <div className="projects">
         <div className="project">
-          <div className="project_left">
-            <a href="https://wanderlists.herokuapp.com" target="_blank">
-              <img className="thumbnail" src="src/wanderlist2.png" alt="Image" />
-            </a>
-            <span className="hover_text"> TESTING </span>
-          </div>
-
-          <div className="project_right">
-             <p>Wanderlist is a platform for authors and readers to create, comment, and vote on interesting lists</p><br></br>
-             <p>Built in JavaScript and with React and Redux</p><br></br>
-             <p>Check out the code-base here</p>
-          </div>
+          <a href="https://wanderlists.herokuapp.com" target="_blank">
+            <img className="thumbnail" src="src/wanderlist2.png" alt="Image" />
+          </a>
+          <p><span className="highlight_text">Wanderlist</span> is a platform for users to <span className="highlight_text3">create</span>, <span className="highlight_text3">comment</span>, and <span className="highlight_text3">vote</span> on interesting lists<br></br><br></br>
+            Built in JS with <span className="highlight_text2">React</span> and <span className="highlight_text2">Redux</span><br></br><br></br>
+            Check out the code-base <span className="spacing"></span><a href="https://github.com/lentata/WanderList" target="_blank"><span className="underline">here</span></a>
+          </p>
         </div>
 
         <div className="project">
-          <div className="project_left">
-            <a href="https://spontaneo.herokuapp.com" target="_blank">
-              <img className="thumbnail" src="src/spontaneo.png" alt="Image" />
-            </a>
-          </div>
-
-          <div className="project_right">
-            <p>Spontaneo is an idea generating tool designed to help users discover fun activities and top-rated restaurants</p><br></br>
-            <p>Built in JavaScript and with Angular</p><br></br>
-            <p>Check out the code-base here</p>
-          </div>
+          <a href="https://spontaneo.herokuapp.com" target="_blank">
+            <img className="thumbnail" src="src/spontaneo.png" alt="Image" />
+          </a>
+          <p><span className="highlight_text">Spontaneo</span> is an idea generating tool designed to help users <span className="highlight_text3">discover</span> fun activities and top-rated restaurants<br></br><br></br>
+            Built in JS with <span className="highlight_text4">Angular</span><br></br><br></br>
+            Check out the code-base <span className="spacing"></span><a href="https://github.com/dial-up/spontaneo" target="_blank"><span className="underline">here</span></a>
+          </p>
         </div>
       </div>
     );

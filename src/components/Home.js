@@ -8,8 +8,8 @@ class Home extends Component {
         <p className="intro">
           <span id="first_line"> Hi.</span><br></br>
           <span className="the_rest">
-            I'm <span className="highlight_text">Lee Tsai</span>, a <span className="highlight_text">hacker</span><br></br>
-          living in San Francisco <span className="highlight_text">&#10073;</span>
+            I'm <span className="highlight_text">Lee</span>, a <span className="highlight_text">hacker</span><br></br>
+            in San Francisco <span className="highlight_text">&#10073;</span>
           </span>
         </p>
       </div>
