@@ -665,7 +665,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -794,7 +794,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 	'use strict';
 
@@ -1238,7 +1238,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -1347,7 +1347,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	function makeEmptyFunction(arg) {
@@ -1388,7 +1388,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -1419,7 +1419,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -1624,7 +1624,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -1669,7 +1669,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -2749,7 +2749,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -3186,7 +3186,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -3617,7 +3617,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -4456,7 +4456,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 	'use strict';
 
@@ -5688,7 +5688,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -6179,7 +6179,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -6261,7 +6261,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -6324,7 +6324,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -6498,7 +6498,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -7599,7 +7599,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -7723,7 +7723,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -7922,7 +7922,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -8015,7 +8015,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -8114,7 +8114,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -8143,7 +8143,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -8509,7 +8509,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -8551,7 +8551,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -8654,7 +8654,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -8987,7 +8987,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -12421,7 +12421,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 * @typechecks static-only
 	 */
 
@@ -13614,7 +13614,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -14582,7 +14582,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -15874,7 +15874,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -16011,7 +16011,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -16042,7 +16042,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @typechecks
-	 *
+	 * 
 	 */
 
 	/*eslint-disable no-self-compare */
@@ -16274,7 +16274,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -16299,7 +16299,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -16543,7 +16543,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -16567,7 +16567,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -16612,7 +16612,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -16788,7 +16788,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -18932,7 +18932,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	var isTextNode = __webpack_require__(150);
@@ -19570,7 +19570,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -21039,7 +21039,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 *
+	 * 
 	 */
 
 	'use strict';
@@ -21858,7 +21858,7 @@
 
 
 	// module
-	exports.push([module.id, "/*\n-----------------------------------------------\nTypesetting for Lee's personal website\n\nhttp://www.modularscale.com/?16&px&1.618&web&text\n16px @ 1:1.618\n----------------------------------------------- */\n\n\n/* CSS Reset\n----------------------------------------------- */\n/* See reset.css file */\n\n\n/* Baseline type + layout\n----------------------------------------------- */\nhtml, body, #root, #root > div, .container {\n  height: 100%;\n}\n\nhtml {\n  background-attachment: fixed;\n  background-image:\n    linear-gradient(\n      rgba(0, 0, 0, 0.75),\n      rgba(0, 0, 0, 0.75)\n    ),\n    url(http://3.bp.blogspot.com/-CUAFtSo8bNM/VWnS7gzLYsI/AAAAAAAABiw/JVM4LymkKns/s1600/18.-Blog-Photography-Tips-Tricks-Backgrounds-Props.png);\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: cover;\n    -o-background-size: cover;\n    -moz-background-size: cover;\n    -webkit-background-size: cover;\n}\n\nbody {\n  border-top: 4px rgba(250, 0, 0, 1) solid;\n  color: rgba(250, 250, 250, 1);\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n  font-size: 16px; /* Scale origin */\n}\n\n.container {\n  display: flex;\n    display: -webkit-flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\nh1, h2, h3, p {\n  text-rendering: optimizeLegibility;\n}\n\nh1 {\n\tline-height: 1;\n\tfont-weight: normal;\n  font-size: 2.25em;\n}\n\nh2 {\n  font-size: 1.618em;\n}\n\np {\n  margin: 1em 0;\n  line-height: 1.5;\n}\n\n/* Navigation\n---------------------- */\n.navbar {\n  align-self: flex-end;\n  height: 20px;\n}\n\n.nav_words {\n  display: inline-block;\n  line-height: 50px;\n  min-width: 6.854em;\n  text-align: center;\n}\n\n.nav_routes {\n  list-style-type: none;\n}\n\n.nav_dropdown {\n  display: none;\n}\n\n.dropdown_content {\n  list-style-type: none;\n  display: none;\n}\n\n/* Show dropdown menu on hover */\n.nav_dropdown:hover .dropdown_content {\n  display: block;\n}\n\n/* Biography\n---------------------- */\n.biography {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n#profile_picture {\n  border: 2px solid #E4F1FE;\n  border-radius: 7.5%;\n  height: auto;\n  max-width: 180px;\n  width: 65%;\n}\n\n/* Blurb\n---------------------- */\n.intro {\n  /*margin: 8% 4% 6%;*/\n  margin: 1em 1.5em;\n  font-size: 21px;\n}\n\n#first_line {\n  font-size: 2.618em;\n}\n\n#the_rest {\n  font-size: 1em;\n}\n\n.social_media {\n  margin: 0 auto;\n}\n\n.fa {\n  margin: 0 10px;\n}\n\n#copyright {\n  align-self: flex-start;\n  font-family: 'Roboto', Arial, sans-serif;\n  font-size: 0.382em;\n}\n\n/* Links\n----------------------------------------------- */\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n.fa:hover {\n  transition-duration: 0.2s;\n}\n\n#linkedin:hover {\n  color: rgb(30, 135, 189);\n}\n\n#github:hover {\n  color: rgb(51, 51, 51);\n}\n\n#angellist:hover {\n  color: rgb(152, 152, 152);\n}\n\n/* Navigation\n----------------------------------------------- */\n.tiles {\n  position: relative;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.tile {\n  display: inline-block;\n  margin: 0 auto;\n  padding-bottom: 60%;\n  position: relative;\n  width: 60%;\n}\n\n.tile_content {\n  /*background-color: rgba(238, 238, 238, .33);*/\n  bottom: 5px;\n  color: white;\n  font-size: 25px;\n  left: 5px;\n  padding: 20px;\n  position: absolute;\n  right: 5px;\n  top: 5px;\n}\n\n.tile_content:hover {\n  /*background-color: rgba(238, 238, 238, .50);*/\n}\n\n/* Portfolio\n----------------------------------------------- */\n.projects {\n  /*background-color: rgba(255, 255, 255, 0.5);*/\n  margin: 5% auto;\n  display: flex;\n    display: -webkit-flex;\n  flex-direction: column;\n    -webkit-flex-direction: column;\n  justify-content: center;\n  width: 80%;\n}\n\n.project {\n  display: flex;\n    display: -webkit-flex;\n  flex-direction: row;\n    -webkit-flex-direction: row;\n  justify-content: space-between;\n}\n\n.project {\n  padding: 5%;\n}\n\n.project_left {\n  width: 55%;\n}\n\n.project_right {\n  width: 45%;\n}\n\n.thumbnail {\n  width: 95%;\n}\n\n.project_right {\n  overflow-y: auto;\n}\n\n.project_right p {\n  color: rgba(238, 238, 238, 1);\n  margin: 0;\n}\n\n.thumbnail:hover {\n  opacity: 0.75;\n  box-shadow: 3px 3px 1px rgba(191, 191, 191, 1);\n  cursor: pointer;\n}\n\n/* Resume\n----------------------------------------------- */\n#resume {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n\n/* Media responsive\n----------------------------------------------- */\n@media only screen and (min-width: 320px) and (max-width: 768px) {\n  .nav_routes {\n    display: none;\n  }\n\n  .nav_dropdown {\n    display: block;\n  }\n}\n", ""]);
+	exports.push([module.id, "/*\n-----------------------------------------------\nTypesetting for Lee's personal website\n\nhttp://www.modularscale.com/?16&px&1.618&web&text\n16px @ 1:1.618\n----------------------------------------------- */\n\n\n/* CSS Reset\n----------------------------------------------- */\n/* See reset.css file */\n\n\n/* Baseline type + layout\n----------------------------------------------- */\nhtml, body, #root, #root > div, .container {\n  height: 100%;\n}\n\nhtml {\n  background-attachment: fixed;\n  background-image:\n    linear-gradient(\n      rgba(0, 0, 0, 0.95),\n      rgba(0, 0, 0, 0.95)\n    );\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: cover;\n    -o-background-size: cover;\n    -moz-background-size: cover;\n    -webkit-background-size: cover;\n}\n\nbody {\n  color: rgba(250, 250, 250, 1);\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n  font-size: 16px; /* Scale origin */\n}\n\n.container {\n  display: flex;\n    display: -webkit-flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\nh1, h2, h3, p {\n  text-rendering: optimizeLegibility;\n}\n\nh1 {\n\tline-height: 1;\n\tfont-weight: normal;\n  font-size: 2.25em;\n}\n\nh2 {\n  font-size: 1.618em;\n}\n\np {\n  margin: 1em 0;\n  line-height: 1.5;\n}\n\n.highlight_text {\n  color: rgba(0, 255, 36, 1.0)\n}\n\n/* Navigation\n---------------------- */\n.navbar {\n  width: 100%;\n  background-color: rgba(0, 0, 0, 0.95);\n  border-bottom: 0.09em rgba(213, 213, 213, 1.0) solid;\n}\n\n.nav_words {\n  display: inline-block;\n  line-height: 4.236em;\n  min-width: 6.854em;\n  text-align: center;\n  font-size: 0.618em;\n}\n\n.nav_routes {\n  list-style-type: none;\n  float: right;\n}\n\n.nav_dropdown {\n  display: none;\n}\n\n.dropdown_content {\n  list-style-type: none;\n  display: none;\n}\n\n/* Show dropdown menu on hover */\n.nav_dropdown:hover .dropdown_content {\n  display: block;\n}\n\n.nav_words:hover {\n  color: rgba(0, 255, 36, 1.0);\n}\n\n/* Biography\n---------------------- */\n.biography {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin: 0 10%;\n}\n\n#profile_picture {\n  border: 0.146em solid #E4F1FE;\n  border-radius: 7.5%;\n  height: auto;\n  max-width: 11.089em;\n  width: 65%;\n  /*margin-top: 10%;*/\n}\n\n/* Blurb\n---------------------- */\n.intro {\n  /*text-align: center;*/\n}\n\n#first_line {\n  font-size: 4.236em;\n}\n\n.the_rest {\n  font-size: 2.618em;\n  text-indent: 10.618em;\n}\n\n.social_media {\n  margin: 0 auto;\n  margin-bottom: 10%;\n}\n\n.fa {\n  margin: 0 10px;\n}\n\n#copyright {\n  align-self: flex-start;\n  font-family: 'Roboto', Arial, sans-serif;\n  font-size: 0.382em;\n}\n\n/* Links\n----------------------------------------------- */\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n.fa:hover {\n  transition-duration: 0.2s;\n}\n\n#linkedin:hover {\n  color: rgb(30, 135, 189);\n}\n\n#github:hover {\n  color: rgb(51, 51, 51);\n}\n\n#angellist:hover {\n  color: rgb(152, 152, 152);\n}\n\n/* Portfolio\n----------------------------------------------- */\n.projects {\n  /*background-color: rgba(255, 255, 255, 0.5);*/\n  margin: 5% auto;\n  display: flex;\n    display: -webkit-flex;\n  flex-direction: column;\n    -webkit-flex-direction: column;\n  justify-content: center;\n  width: 80%;\n}\n\n.project {\n  display: flex;\n    display: -webkit-flex;\n  flex-direction: row;\n    -webkit-flex-direction: row;\n  justify-content: space-between;\n}\n\n.project {\n  padding: 5%;\n}\n\n.project_left {\n  width: 55%;\n}\n\n.project_right {\n  width: 45%;\n}\n\n.thumbnail {\n  width: 95%;\n}\n\n.project_right {\n  overflow-y: auto;\n}\n\n.project_right p {\n  color: rgba(238, 238, 238, 1);\n  margin: 0;\n}\n\n.thumbnail:hover {\n  opacity: 0.75;\n  box-shadow: 3px 3px 1px rgba(191, 191, 191, 1);\n  cursor: pointer;\n}\n\n/* Resume\n----------------------------------------------- */\n#resume {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n\n/* Media responsive\n----------------------------------------------- */\n@media only screen and (max-width: 300px) {\n  .nav_routes {\n    display: none;\n  }\n\n  .nav_dropdown {\n    display: block;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -27115,42 +27115,37 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'biography' },
-	        _react2.default.createElement('img', { id: 'profile_picture', src: 'src/css/leetsai.png', alt: 'profile_picture' }),
 	        _react2.default.createElement(
 	          'p',
 	          { className: 'intro' },
 	          _react2.default.createElement(
 	            'span',
 	            { id: 'first_line' },
-	            'Hi, I\'m Lee!'
+	            ' Hi.'
 	          ),
-	          ' ',
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement(
 	            'span',
-	            { id: 'the_rest' },
-	            'a full-stack web developer ',
+	            { className: 'the_rest' },
+	            'I\'m ',
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'highlight_text' },
+	              'Lee Tsai'
+	            ),
+	            ', a ',
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'highlight_text' },
+	              'hacker'
+	            ),
 	            _react2.default.createElement('br', null),
-	            'working in San Francisco'
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'social_media' },
-	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://linkedin.com/in/leetsai', target: '_blank' },
-	            _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-2x', 'aria-hidden': 'true', id: 'linkedin' })
-	          ),
-	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://github.com/leetsai', target: '_blank' },
-	            _react2.default.createElement('i', { className: 'fa fa-github fa-2x', 'aria-hidden': 'true', id: 'github' })
-	          ),
-	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://angel.co/leetsai', target: '_blank' },
-	            _react2.default.createElement('i', { className: 'fa fa-angellist fa-2x', 'aria-hidden': 'true', id: 'angellist' })
+	            'living in San Francisco ',
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'highlight_text' },
+	              '\u2759'
+	            )
 	          )
 	        )
 	      );
@@ -27162,6 +27157,14 @@
 
 	var _default = Home;
 	exports.default = _default;
+
+	// <img id="profile_picture" src="src/css/leetsai.png" alt="profile_picture" />
+	// <div className="social_media">
+	//   <a href="https://linkedin.com/in/leetsai" target="_blank"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true" id="linkedin"></i></a>
+	//   <a href="https://github.com/leetsai" target="_blank"><i className="fa fa-github fa-2x" aria-hidden="true" id="github"></i></a>
+	//   <a href="https://angel.co/leetsai" target="_blank"><i className="fa fa-angellist fa-2x" aria-hidden="true" id="angellist"></i></a>
+	// </div>
+
 	;
 
 	var _temp = function () {
