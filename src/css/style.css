@@ -24,8 +24,7 @@ html {
     linear-gradient(
       rgba(0, 0, 0, 0.95),
       rgba(0, 0, 0, 0.95)
-    ),
-    url(http://3.bp.blogspot.com/-CUAFtSo8bNM/VWnS7gzLYsI/AAAAAAAABiw/JVM4LymkKns/s1600/18.-Blog-Photography-Tips-Tricks-Backgrounds-Props.png);
+    );
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,12 +65,16 @@ p {
   line-height: 1.5;
 }
 
+.highlight_text {
+  color: rgba(0, 255, 36, 1.0)
+}
+
 /* Navigation
 ---------------------- */
 .navbar {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.95);
-  border-bottom: 0.09em rgba(149, 165, 166,1.0) solid;
+  border-bottom: 0.09em rgba(213, 213, 213, 1.0) solid;
 }
 
 .nav_words {
@@ -102,7 +105,7 @@ p {
 }
 
 .nav_words:hover {
-  color: rgba(149, 165, 166,1.0);
+  color: rgba(0, 255, 36, 1.0);
 }
 
 /* Biography
@@ -112,7 +115,6 @@ p {
   flex-direction: column;
   align-items: center;
   margin: 0 10%;
-  /*background-color: rgba(0, 0, 0, 0.8);*/
 }
 
 #profile_picture {
@@ -136,6 +138,7 @@ p {
 
 .the_rest {
   font-size: 2.618em;
+  text-indent: 10.618em;
 }
 
 .social_media {
