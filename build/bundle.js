@@ -21858,7 +21858,7 @@
 
 
 	// module
-	exports.push([module.id, "/*\n-----------------------------------------------\nTypesetting for Lee's personal website\n\nhttp://www.modularscale.com/?16&px&1.618&web&text\n16px @ 1:1.618\n----------------------------------------------- */\n\n\n/* CSS Reset\n----------------------------------------------- */\n/* See reset.css file */\n\n\n/* Baseline type + layout\n----------------------------------------------- */\nhtml, body, #root, #root > div, .container {\n  height: 100%;\n}\n\nhtml {\n  background-attachment: fixed;\n  background-image:\n    linear-gradient(\n      rgba(0, 0, 0, 0.95),\n      rgba(0, 0, 0, 0.95)\n    );\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: cover;\n    -o-background-size: cover;\n    -moz-background-size: cover;\n    -webkit-background-size: cover;\n}\n\nbody {\n  color: rgba(250, 250, 250, 1);\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n  font-size: 16px; /* Scale origin */\n}\n\n.container {\n  display: flex;\n    display: -webkit-flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n}\n\nh1, h2, h3, p {\n  text-rendering: optimizeLegibility;\n}\n\nh1 {\n\tline-height: 1;\n\tfont-weight: normal;\n  font-size: 2.25em;\n}\n\nh2 {\n  font-size: 1.618em;\n}\n\np {\n  margin: 1em 0;\n  line-height: 1.5;\n}\n\n.highlight_text {\n  color: rgba(0, 255, 36, 1.0)\n}\n\n.highlight_text2 {\n  color: rgba(0, 220, 255, 1.0)\n}\n\n.highlight_text3 {\n  color: rgba(106, 0, 228, 1.0);\n}\n\n.highlight_text4 {\n  color: rgba(243, 0, 2, 1.0);\n}\n\n.underline {\n  text-decoration: underline;\n}\n\n.spacing {\n  content: \"\\A0   \";\n}\n\n/* Navigation\n---------------------- */\n.navbar {\n  width: 100%;\n  background-color: rgba(0, 0, 0, 0.95);\n  border-bottom: 0.09em rgba(213, 213, 213, 1.0) solid;\n}\n\n.nav_words {\n  display: inline-block;\n  line-height: 4.236em;\n  min-width: 6.854em;\n  text-align: center;\n  font-size: 0.618em;\n}\n\n.nav_routes {\n  list-style-type: none;\n  float: right;\n}\n\n.nav_dropdown {\n  display: none;\n}\n\n.dropdown_content {\n  list-style-type: none;\n  display: none;\n}\n\n/* Show dropdown menu on hover */\n.nav_dropdown:hover .dropdown_content {\n  display: block;\n}\n\n.nav_words:hover {\n  color: rgba(0, 255, 36, 1.0);\n}\n\n/* Biography\n---------------------- */\n.biography {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin: 0 10%;\n}\n\n#profile_picture {\n  border: 0.146em solid #E4F1FE;\n  border-radius: 7.5%;\n  height: auto;\n  max-width: 11.089em;\n  width: 65%;\n  /*margin-top: 10%;*/\n}\n\n/* Blurb\n---------------------- */\n.intro {\n  /*text-align: center;*/\n}\n\n#first_line {\n  font-size: 4.236em;\n}\n\n.the_rest {\n  font-size: 2.618em;\n}\n\n.social_media {\n  margin: 0 auto;\n  margin-bottom: 10%;\n}\n\n.fa {\n  margin: 0 10px;\n}\n\n#copyright {\n  align-self: flex-start;\n  font-family: 'Roboto', Arial, sans-serif;\n  font-size: 0.382em;\n}\n\n/* Links\n----------------------------------------------- */\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n.fa:hover {\n  transition-duration: 0.2s;\n}\n\n#linkedin:hover {\n  color: rgb(30, 135, 189);\n}\n\n#github:hover {\n  color: rgb(51, 51, 51);\n}\n\n#angellist:hover {\n  color: rgb(152, 152, 152);\n}\n\n/* Portfolio\n----------------------------------------------- */\n.projects {\n  background-color: rgba(38, 38, 38, 1);\n  border: 8px rgba(7, 7, 7, 1) solid;\n  border-radius: 5px;\n  box-shadow: 0 0 0 2px rgba(144, 144, 144, 1),\n              2px 2px 3px rgba(115, 125, 135, 1);\n  width: 75%;\n  margin: 10%;\n}\n\n.project {\n  padding: 5%;\n}\n\n.project p {\n  line-height: 1.25;\n}\n\n.thumbnail {\n  width: 100%;\n  border-radius: 5px;\n}\n\n.thumbnail:hover {\n  opacity: 0.9;\n  box-shadow: 2px 2px 1px rgba(255, 255, 255, 1);\n  cursor: pointer;\n}\n\n/* Resume\n----------------------------------------------- */\n#resume {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n\n/* Media responsive\n----------------------------------------------- */\n@media only screen and (max-width: 300px) {\n  .nav_routes {\n    display: none;\n  }\n\n  .nav_dropdown {\n    display: block;\n  }\n}\n\n@media only screen and (min-width: 301px) and (max-width: 500px) {\n  #first_line {\n    font-size: 2.618em;\n  }\n\n  .the_rest {\n    font-size: 1.618em;\n  }\n}\n", ""]);
+	exports.push([module.id, "/*\n-----------------------------------------------\nTypesetting for Lee's personal website\n\nhttp://www.modularscale.com/?16&px&1.618&web&text\n16px @ 1:1.618\n----------------------------------------------- */\n\n/* CSS Reset\n----------------------------------------------- */\n/* See reset.css file */\n\n/* Baseline type + layout\n----------------------------------------------- */\nhtml, body, #root, #root > div, .container {\n  height: 100%;\n}\n\nhtml {\n  background-attachment: fixed;\n  background-image:\n    linear-gradient(\n      rgba(0, 0, 0, 0.95),\n      rgba(0, 0, 0, 0.95)\n    );\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: cover;\n    -o-background-size: cover;\n    -moz-background-size: cover;\n    -webkit-background-size: cover;\n}\n\nbody {\n  color: rgba(250, 250, 250, 1);\n  font-family: \"Open Sans\", \"Roboto\", \"Lato\", sans-serif;\n  font-size: 16px; /* Scale origin */\n}\n\n.container {\n  display: flex;\n    display: -webkit-flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n}\n\nh1, h2, h3, p {\n  text-rendering: optimizeLegibility;\n}\n\nh1 {\n\tline-height: 1;\n\tfont-weight: normal;\n  font-size: 2.25em;\n}\n\nh2 {\n  font-size: 1.618em;\n}\n\np {\n  line-height: 1.5;\n}\n\n.highlight_text {\n  color: rgba(0, 255, 36, 1.0)\n}\n\n.highlight_text2 {\n  color: rgba(0, 220, 255, 1.0)\n}\n\n.highlight_text3 {\n  color: rgba(106, 0, 228, 1.0);\n}\n\n.highlight_text4 {\n  color: rgba(243, 0, 2, 1.0);\n}\n\n.underline {\n  text-decoration: underline;\n}\n\n.spacing {\n  content: \"\\A0   \";\n}\n\nhr {\n  border: none;\n  border-bottom: 1px solid #ffffff;\n  border-top: 1px solid #aaaaaa;\n  clear: both;\n  display: block;\n  font-size: 1px;\n  height: 0;\n  line-height: 0;\n  margin: 36px auto;\n  max-height: 0;\n  padding: 0;\n  position: relative;\n  width: 100%;\n}\n\n/* Navigation\n---------------------- */\n.navbar {\n  background-color: rgba(0, 0, 0, 0.95);\n  border-bottom: 0.09em rgba(213, 213, 213, 1.0) solid;\n  width: 100%;\n}\n\n.nav_words {\n  display: inline-block;\n  font-size: 0.618em;\n  line-height: 4.236em;\n  min-width: 6.854em;\n  text-align: center;\n}\n\n.nav_routes {\n  float: right;\n  list-style-type: none;\n}\n\n.nav_dropdown {\n  display: none;\n}\n\n.dropdown_content {\n  display: none;\n  list-style-type: none;\n}\n\n.nav_dropdown:hover .dropdown_content {\n  display: block;\n}\n\n.nav_words:hover {\n  color: rgba(0, 255, 36, 1.0);\n}\n\n/* Biography\n---------------------- */\n.biography {\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n  margin: 0 10%;\n}\n\n#profile_picture {\n  border: 0.146em solid #E4F1FE;\n  border-radius: 7.5%;\n  height: auto;\n  max-width: 11.089em;\n  width: 65%;\n}\n\n/* Blurb\n---------------------- */\n#first_line {\n  font-size: 4.236em;\n}\n\n.the_rest {\n  font-size: 2.618em;\n}\n\n.social_media {\n  margin: 0 auto;\n  margin-bottom: 10%;\n}\n\n.fa {\n  margin: 0 10px;\n}\n\n#copyright {\n  align-self: flex-start;\n  font-family: 'Roboto', Arial, sans-serif;\n  font-size: 0.382em;\n}\n\n/* Links\n----------------------------------------------- */\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n.fa:hover {\n  transition-duration: 0.2s;\n}\n\n#linkedin:hover {\n  color: rgb(30, 135, 189);\n}\n\n#github:hover {\n  color: rgb(51, 51, 51);\n}\n\n#angellist:hover {\n  color: rgb(152, 152, 152);\n}\n\n/* Portfolio\n----------------------------------------------- */\n.projects {\n  background-color: rgba(38, 38, 38, 1);\n  border: 8px rgba(7, 7, 7, 1) solid;\n  border-radius: 5px;\n  box-shadow: 0 0 0 2px rgba(144, 144, 144, 1),\n              2px 2px 3px rgba(115, 125, 135, 1);\n  margin: 10%;\n  width: 75%;\n}\n\n.project {\n  padding: 5%;\n}\n\n.project p {\n  line-height: 1.25;\n}\n\n.thumbnail {\n  border-radius: 5px;\n  width: 100%;\n}\n\n.thumbnail:hover {\n  box-shadow: 2px 2px 1px rgba(255, 255, 255, 1);\n  cursor: pointer;\n  opacity: 0.9;\n}\n\n/* Resume\n----------------------------------------------- */\n#resume {\n  height: 100%;\n  position: absolute;\n  width: 100%;\n}\n\n/* Media responsive\n----------------------------------------------- */\n@media only screen and (max-width: 300px) {\n  .nav_routes {\n    display: none;\n  }\n\n  .nav_dropdown {\n    display: block;\n  }\n}\n\n@media only screen and (min-width: 301px) and (max-width: 500px) {\n  #first_line {\n    font-size: 2.618em;\n  }\n\n  .the_rest {\n    font-size: 1.618em;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -21895,21 +21895,13 @@
 
 	var _Portfolio2 = _interopRequireDefault(_Portfolio);
 
-	var _Blog = __webpack_require__(244);
-
-	var _Blog2 = _interopRequireDefault(_Blog);
-
-	var _Resume = __webpack_require__(245);
+	var _Resume = __webpack_require__(244);
 
 	var _Resume2 = _interopRequireDefault(_Resume);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	// Routes
-
-
-	// Components
-	// Libs
 	var routes = _react2.default.createElement(
 	  _reactRouter.Router,
 	  { history: _reactRouter.browserHistory },
@@ -21920,13 +21912,14 @@
 	      _reactRouter.Route,
 	      { component: _MainLayout2.default },
 	      _react2.default.createElement(_reactRouter.Route, { path: '/', component: _Home2.default }),
-	      _react2.default.createElement(_reactRouter.Route, { path: '/portfolio', component: _Portfolio2.default }),
-	      _react2.default.createElement(_reactRouter.Route, { path: '/blog', component: _Blog2.default })
+	      _react2.default.createElement(_reactRouter.Route, { path: '/portfolio', component: _Portfolio2.default })
 	    ),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/resume', component: _Resume2.default })
 	  )
 	);
 
+	// Components
+	// Libs
 	var _default = routes;
 	exports.default = _default;
 	;
@@ -26984,15 +26977,6 @@
 	                { className: 'nav_words' },
 	                'Portfolio'
 	              )
-	            ),
-	            _react2.default.createElement(
-	              _reactRouter.Link,
-	              { to: '/blog' },
-	              _react2.default.createElement(
-	                'li',
-	                { className: 'nav_words' },
-	                'Blog'
-	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -27027,15 +27011,6 @@
 	                  'li',
 	                  null,
 	                  'Portfolio'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: '/blog' },
-	                _react2.default.createElement(
-	                  'li',
-	                  null,
-	                  'Blog'
 	                )
 	              )
 	            )
@@ -27143,6 +27118,26 @@
 	              '\u2759'
 	            )
 	          )
+	        ),
+	        _react2.default.createElement('hr', null),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'social_media' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://linkedin.com/in/leetsai', target: '_blank' },
+	            _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-2x', 'aria-hidden': 'true', id: 'linkedin' })
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://github.com/leetsai', target: '_blank' },
+	            _react2.default.createElement('i', { className: 'fa fa-github fa-2x', 'aria-hidden': 'true', id: 'github' })
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://angel.co/leetsai', target: '_blank' },
+	            _react2.default.createElement('i', { className: 'fa fa-angellist fa-2x', 'aria-hidden': 'true', id: 'angellist' })
+	          )
 	        )
 	      );
 	    }
@@ -27153,14 +27148,6 @@
 
 	var _default = Home;
 	exports.default = _default;
-
-	// <img id="profile_picture" src="src/css/leetsai.png" alt="profile_picture" />
-	// <div className="social_media">
-	//   <a href="https://linkedin.com/in/leetsai" target="_blank"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true" id="linkedin"></i></a>
-	//   <a href="https://github.com/leetsai" target="_blank"><i className="fa fa-github fa-2x" aria-hidden="true" id="github"></i></a>
-	//   <a href="https://angel.co/leetsai" target="_blank"><i className="fa fa-angellist fa-2x" aria-hidden="true" id="angellist"></i></a>
-	// </div>
-
 	;
 
 	var _temp = function () {
@@ -27351,100 +27338,6 @@
 
 /***/ },
 /* 244 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var Blog = function (_Component) {
-	  _inherits(Blog, _Component);
-
-	  function Blog() {
-	    _classCallCheck(this, Blog);
-
-	    return _possibleConstructorReturn(this, (Blog.__proto__ || Object.getPrototypeOf(Blog)).apply(this, arguments));
-	  }
-
-	  _createClass(Blog, [{
-	    key: "render",
-	    value: function render() {
-	      return _react2.default.createElement(
-	        "div",
-	        null,
-	        _react2.default.createElement(
-	          "div",
-	          null,
-	          _react2.default.createElement("img", { id: "profile_picture", src: "src/css/leetsai.png", alt: "profile_picture" })
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "social_media" },
-	          _react2.default.createElement(
-	            "a",
-	            { href: "https://linkedin.com/in/leetsai", target: "_blank" },
-	            _react2.default.createElement("i", { className: "fa fa-linkedin-square fa-2x", "aria-hidden": "true", id: "linkedin" })
-	          ),
-	          _react2.default.createElement(
-	            "a",
-	            { href: "https://github.com/leetsai", target: "_blank" },
-	            _react2.default.createElement("i", { className: "fa fa-github fa-2x", "aria-hidden": "true", id: "github" })
-	          ),
-	          _react2.default.createElement(
-	            "a",
-	            { href: "https://angel.co/leetsai", target: "_blank" },
-	            _react2.default.createElement("i", { className: "fa fa-angellist fa-2x", "aria-hidden": "true", id: "angellist" })
-	          )
-	        )
-	      );
-	    }
-	  }]);
-
-	  return Blog;
-	}(_react.Component);
-
-	var _default = Blog;
-	exports.default = _default;
-
-	// <img id="profile_picture" src="src/css/leetsai.png" alt="profile_picture" />
-	// <div className="social_media">
-	//   <a href="https://linkedin.com/in/leetsai" target="_blank"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true" id="linkedin"></i></a>
-	//   <a href="https://github.com/leetsai" target="_blank"><i className="fa fa-github fa-2x" aria-hidden="true" id="github"></i></a>
-	//   <a href="https://angel.co/leetsai" target="_blank"><i className="fa fa-angellist fa-2x" aria-hidden="true" id="angellist"></i></a>
-	// </div>
-
-	;
-
-	var _temp = function () {
-	  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-	    return;
-	  }
-
-	  __REACT_HOT_LOADER__.register(Blog, "Blog", "/Users/Lee/leetsai.github.io/src/components/Blog.js");
-
-	  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Lee/leetsai.github.io/src/components/Blog.js");
-	}();
-
-	;
-
-/***/ },
-/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
