@@ -10,21 +10,17 @@ class Home extends Component {
             <Link to="/"><li className="nav_words">Home</li></Link>
             <Link to="/resume"><li className="nav_words">Resume</li></Link>
             <Link to="/portfolio"><li className="nav_words">Portfolio</li></Link>
-            <Link to="/blog"><li className="nav_words">Blog</li></Link>
           </ul>
           <li className="nav_words nav_dropdown">&#9776;
             <ul className="dropdown_content">
               <Link to="/"><li>Home</li></Link>
               <Link to="/resume"><li>Resume</li></Link>
               <Link to="/portfolio"><li>Portfolio</li></Link>
-              <Link to="/blog"><li>Blog</li></Link>
             </ul>
           </li>
         </div>
 
-        <div className="content">
-          {this.props.children}
-        </div>
+        {this.props.children}
 
         <div id="copyright">
           © COPYRIGHT 2016-17

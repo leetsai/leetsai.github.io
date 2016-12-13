@@ -12,17 +12,17 @@ class Home extends Component {
             in San Francisco <span className="highlight_text">&#10073;</span>
           </span>
         </p>
+
+        <hr></hr>
+
+        <div className="social_media">
+          <a href="https://linkedin.com/in/leetsai" target="_blank"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true" id="linkedin"></i></a>
+          <a href="https://github.com/leetsai" target="_blank"><i className="fa fa-github fa-2x" aria-hidden="true" id="github"></i></a>
+          <a href="https://angel.co/leetsai" target="_blank"><i className="fa fa-angellist fa-2x" aria-hidden="true" id="angellist"></i></a>
+        </div>
       </div>
     );
   }
 }
 
 export default Home;
-
-
-// <img id="profile_picture" src="src/css/leetsai.png" alt="profile_picture" />
-// <div className="social_media">
-//   <a href="https://linkedin.com/in/leetsai" target="_blank"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true" id="linkedin"></i></a>
-//   <a href="https://github.com/leetsai" target="_blank"><i className="fa fa-github fa-2x" aria-hidden="true" id="github"></i></a>
-//   <a href="https://angel.co/leetsai" target="_blank"><i className="fa fa-angellist fa-2x" aria-hidden="true" id="angellist"></i></a>
-// </div>

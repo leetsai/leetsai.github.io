@@ -7,7 +7,6 @@ import App from './components/App';
 import MainLayout from './components/MainLayout';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
-import Blog from './components/Blog';
 import Resume from './components/Resume';
 
 // Routes
@@ -17,7 +16,6 @@ const routes = (
       <Route component={ MainLayout }>
         <Route path="/" component={ Home } />
         <Route path="/portfolio" component={ Portfolio } />
-        <Route path="/blog" component={ Blog } />
       </Route>
 
       <Route path="/resume" component={ Resume } />
