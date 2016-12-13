@@ -22,8 +22,8 @@ html {
   background-attachment: fixed;
   background-image:
     linear-gradient(
-      rgba(0, 0, 0, 0.9),
-      rgba(0, 0, 0, 0.9)
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.95)
     ),
     url(http://3.bp.blogspot.com/-CUAFtSo8bNM/VWnS7gzLYsI/AAAAAAAABiw/JVM4LymkKns/s1600/18.-Blog-Photography-Tips-Tricks-Backgrounds-Props.png);
   background-position: center center;
@@ -69,13 +69,14 @@ p {
 /* Navigation
 ---------------------- */
 .navbar {
-  align-self: flex-end;
-  height: 20px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  border-bottom: 0.09em rgba(149, 165, 166,1.0) solid;
 }
 
 .nav_words {
   display: inline-block;
-  line-height: 50px;
+  line-height: 4.236em;
   min-width: 6.854em;
   text-align: center;
   font-size: 0.618em;
@@ -83,6 +84,7 @@ p {
 
 .nav_routes {
   list-style-type: none;
+  float: right;
 }
 
 .nav_dropdown {
@@ -99,40 +101,46 @@ p {
   display: block;
 }
 
+.nav_words:hover {
+  color: rgba(149, 165, 166,1.0);
+}
+
 /* Biography
 ---------------------- */
 .biography {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 10%;
+  /*background-color: rgba(0, 0, 0, 0.8);*/
 }
 
 #profile_picture {
-  border: 2px solid #E4F1FE;
+  border: 0.146em solid #E4F1FE;
   border-radius: 7.5%;
   height: auto;
-  max-width: 180px;
+  max-width: 11.089em;
   width: 65%;
+  /*margin-top: 10%;*/
 }
 
 /* Blurb
 ---------------------- */
 .intro {
-  /*margin: 8% 4% 6%;*/
-  margin: 1em 1.5em;
-  font-size: 21px;
+  /*text-align: center;*/
 }
 
 #first_line {
-  font-size: 2.618em;
+  font-size: 4.236em;
 }
 
-#the_rest {
-  font-size: 1em;
+.the_rest {
+  font-size: 2.618em;
 }
 
 .social_media {
   margin: 0 auto;
+  margin-bottom: 10%;
 }
 
 .fa {
@@ -166,38 +174,6 @@ a {
 
 #angellist:hover {
   color: rgb(152, 152, 152);
-}
-
-/* Navigation
------------------------------------------------ */
-.tiles {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.tile {
-  display: inline-block;
-  margin: 0 auto;
-  padding-bottom: 60%;
-  position: relative;
-  width: 60%;
-}
-
-.tile_content {
-  /*background-color: rgba(238, 238, 238, .33);*/
-  bottom: 5px;
-  color: white;
-  font-size: 25px;
-  left: 5px;
-  padding: 20px;
-  position: absolute;
-  right: 5px;
-  top: 5px;
-}
-
-.tile_content:hover {
-  /*background-color: rgba(238, 238, 238, .50);*/
 }
 
 /* Portfolio
